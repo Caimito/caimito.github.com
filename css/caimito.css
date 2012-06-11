@@ -1,0 +1,17 @@
+.blue {
+	color: blue;
+}
+
+.footer {
+	background-color: silver;
+	color: black;
+}
+
+.hero-unit H1 {
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+
+.caimito-hero {
+	height: 150px;
+}
