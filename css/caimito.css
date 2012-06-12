@@ -44,3 +44,24 @@ DIV.callout {
 	margin-bottom: 20px;
 }
 
+blockquote.client {
+  	font: 14px/20px italic Times, serif;
+  	padding: 8px;
+  	margin: 1.5em 5px 1.5em 5px ;
+  	background-image: url(../img/openquote.gif);
+  	background-position: top left;
+  	background-repeat: no-repeat;
+  	text-indent: 23px;
+}
+
+blockquote.client span {
+    display: block;
+   	background-image: url(../img/closequote.gif);
+   	background-repeat: no-repeat;
+   	background-position: bottom right;
+}
+
+blockquote.client P {
+	margin-top: 2px;
+  	font: 14px/20px Helvetica, sans-serif;
+}
