@@ -1,5 +1,9 @@
-.blue {
-	color: #0C4FCE;
+.caimito-main-color {
+	color: #990066;
+}
+
+.caimito-green-color {
+	color: #618973;
 }
 
 .footer {
@@ -14,5 +18,29 @@
 
 .caimito-hero {
 	height: 150px;
+}
+
+.nav LI A {
+	font-size: 18pt;
+}
+
+.nav LI {
+	padding-top: 3px;
+}
+
+.subheader {
+	margin-bottom: 12pt;
+}
+
+P {
+	font-size: 11pt;
+	line-height: 1.5em;
+}
+
+DIV.callout {
+	background-color: #eeeeee;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
