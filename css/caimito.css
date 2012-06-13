@@ -32,9 +32,18 @@
 	margin-bottom: 12pt;
 }
 
+.introduction {
+	margin-top: 0.5em;
+	font-size: 14pt;
+}
+
 P {
 	font-size: 11pt;
 	line-height: 1.5em;
+}
+
+.content-container {
+	margin-top: 2em
 }
 
 DIV.callout {
