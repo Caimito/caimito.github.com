@@ -7,7 +7,8 @@
 }
 
 .footer {
-	background-color: silver;
+	border-top: thin solid black;
+	background-color: #eeeeee;
 	color: black;
 }
 
@@ -87,4 +88,23 @@ blockquote.client span {
 blockquote.client P {
 	margin-top: 2px;
   	font: 14px/20px Helvetica, sans-serif;
+}
+
+FIGURE.article {
+	margin: 0px;
+	width: 100%;
+}
+
+FIGURE.article FIGCAPTION {
+	position: relative;
+	top: -35px;
+	opacity: 0.6;
+	background-color: white;
+	height: 25px;
+	padding: 5px;
+}
+
+FIGURE.article FIGCAPTION P {
+	font-size: 14pt;
+	font-weight: bold;
 }
