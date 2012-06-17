@@ -18,6 +18,20 @@
 
 .caimito-hero {
 	height: 170px;
+	color: white;
+}
+
+.caimito-hero-text {
+	position: relative;
+	top: 125px;
+	left: -15px;
+	width: 830px;
+	height: 85px;
+	background-color:#ffffff;
+	opacity:0.7;
+	color: black;
+	font-weight: bold;
+	padding: 5px;
 }
 
 .nav LI A {
