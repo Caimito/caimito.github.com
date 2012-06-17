@@ -1,0 +1,19 @@
+<script>
+var l_lang;
+if (navigator.userLanguage) // Explorer
+  l_lang = navigator.userLanguage;
+else if (navigator.language) // FF
+  l_lang = navigator.language;
+else
+  l_lang = "en";
+
+l_lang = l_lang.toLowerCase().substr(0,2)
+
+if (l_lang == new String("en") || l_lang == new String("de")) {
+	if (l_lang.toLowerCase() != new String("en")) {
+		if (document.location.pathname.indexOf("/de") != 0) {
+			document.location = l_lang + document.location.pathname ;
+		}
+	}
+}
+</script>
