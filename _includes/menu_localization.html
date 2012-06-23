@@ -1,9 +1,11 @@
 
 <script>
-if (isEnglish()) {
-	$("#aboutLink").html("About") ;
-} else if (isGerman()) {
-	$("#consultingLink").html("Lernen") ;
-	$("#aboutLink").html("&Uuml;ber uns") ;
-}
+jQuery(function($){
+	if (isEnglish()) {
+		$("#aboutLink").html("About") ;
+	} else if (isGerman()) {
+		$("#consultingLink").html("Lernen") ;
+		$("#aboutLink").html("&Uuml;ber uns") ;
+	}
+}) ;
 </script>

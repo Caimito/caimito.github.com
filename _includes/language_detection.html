@@ -1,21 +1,29 @@
-<script>
+<script type='text/javascript'>
 var l_lang;
-if (navigator.userLanguage) // Explorer
-  l_lang = navigator.userLanguage;
-else if (navigator.language) // FF
-  l_lang = navigator.language;
-else
-  l_lang = "en";
 
-l_lang = l_lang.toLowerCase().substr(0,2)
+jQuery(function($){
+	l_lang = readCookie("lang") ;
+	if (l_lang == null) {
+		if (navigator.userLanguage) // Explorer
+		  l_lang = navigator.userLanguage;
+		else if (navigator.language) // FF
+		  l_lang = navigator.language;
+		else
+		  l_lang = "en";
 
-if (l_lang == new String("en") || l_lang == new String("de")) {
-	if (l_lang.toLowerCase() != new String("en")) {
-		if (document.location.pathname.indexOf("/de") != 0) {
-			document.location = l_lang + document.location.pathname ;
+		l_lang = l_lang.toLowerCase().substr(0,2)
+	}
+	
+	if (l_lang == new String("en") || l_lang == new String("de")) {
+		if (l_lang.toLowerCase() != new String("en")) {
+			if (document.location.pathname.indexOf("/de") != 0) {
+				document.location = l_lang + document.location.pathname ;
+			}
 		}
 	}
-}
+
+	$("#languageSelector").val(l_lang) ;
+}) ;
 
 function isEnglish() {
 	return l_lang == new String("en") ;
@@ -23,5 +31,10 @@ function isEnglish() {
 
 function isGerman() {
 	return l_lang == new String("de") ;
+}
+
+function onSwitchLanguage() {
+	createCookie("lang", $("#languageSelector").val(), 1) ;
+	document.location = "/" ;
 }
 </script>
