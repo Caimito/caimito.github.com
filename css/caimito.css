@@ -96,6 +96,8 @@ blockquote.client P {
 
 FIGURE.article {
 	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: -10px;
 	width: 100%;
 }
 
