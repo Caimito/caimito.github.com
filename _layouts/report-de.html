@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/caimito.css" rel="stylesheet">
+
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script language="javascript" src="/js/jquery.tweet.js" type="text/javascript"></script>
+	<script language="javascript" src="/js/caimito.js" type="text/javascript"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script type='text/javascript'>
+	    jQuery(function($){
+	        $(".tweet").tweet({
+	            username: "caimitotech",
+	            avatar_size: 16,
+	            count: 3,
+	            loading_text: "loading tweets..."
+	        });
+	    });
+	</script>
+
+	{% include language_detection.html %}
+	{% include menu_localization.html %}
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-32729899-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+  </head>
+
+  <body>
+	{% include menu.html %}
+	<div class="container content-container">
+		<div class="row">
+			<div class="span8">
+				{{ content }}
+			</div>
+			<div class="span4">
+				<h2 class="caimito-main-color">Schulung</h2>
+				<p>Verbessern Sie die technische Fähigkeiten im Unternehmen. Sprechen Sie mit uns über <strong>Acceptance Test-Driven Development</strong>, <strong>Test-Driven Development</strong>, <strong>Spezifikation in Beispielen</strong> und andere effektive Tech&shy;ni&shy;ken zur <strong>Vermeidung von Defekten</strong> in Ihren Produkten von Anfang an.</p>
+				<h2 class="caimito-main-color">Coaching</h2>
+				<p>Bieten Sie Unterstützung zum Erreichen des vollen individuellen Potenzials an, damit Ihr Unternehmen von verantwortungsvolleren und agileren Mitarbeitern profitiert. Wir bieten Coaching zu agilen Vorgehensweisen, inkl. Scrum und Kanban, unter besonderer Be&shy;rück&shy;sich&shy;ti&shy;gung humanistischer Werte für das gesamte Team.</p>
+				
+				<h2 class="caimito-main-color">Lernendes Unternehmen</h2>
+				<p>Durch sich schnell verändernde Markt&shy;be&shy;din&shy;gun&shy;gen sehen sich Unternehmen neuen Her&shy;aus&shy;for&shy;de&shy;run&shy;gen gegenüber. Lernende Un&shy;ter&shy;neh&shy;men sind in der Lage durch Ver&shy;bes&shy;se&shy;run&shy;gen und Anpassungen sich ständig neu zu erfinden. Wir können Ihnen helfen als Or&shy;ga&shy;ni&shy;sa&shy;ti&shy;on wieder Lernen zu lernen. Damit Sie nicht nur überleben, sondern auch Ihre Kun&shy;den begeistern können.</p>
+
+				<h2 class="caimito-main-color">Führung &amp; Management</h2>
+				<p>Management aus dem Industriezeitalter trenn&shy;te Denken vom Ausführen. Im In&shy;for&shy;ma&shy;ti&shy;ons&shy;zeitalter ist Wissensarbeit entscheidend für Erfolg. Lernen Sie wie man industrielles Management durch echte Führung ersetzt, um ein nachhaltig erfolgreiches Unternehmen zu schaffen.</p>
+
+				<h2 class="caimito-main-color">Kontakt</h2>
+				<p>Wenden Sie sich an <a href="mailto:info@caimito.net">info@caimito.net</a> für eine persönliche Beratung.</p>
+				<p>Wir sprechen Deutsch, Englisch und Spanisch. Unsere Dienstleistung ist weltweit verfügbar.</p>
+			</div>
+		</div>
+		{% include footer.html %}
+    </div> <!-- /container -->
+
+
+  </body>
+</html>
