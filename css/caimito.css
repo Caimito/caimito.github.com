@@ -122,3 +122,7 @@ FIGURE.article FIGCAPTION P {
 #myCarousel {
 	margin-bottom: 0 ;
 }
+
+DL.full-schedule DD {
+	margin-bottom: 1.5em;
+}
