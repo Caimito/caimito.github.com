@@ -115,6 +115,14 @@ FIGURE.article FIGCAPTION P {
 	font-weight: bold;
 }
 
+FIGURE.report {
+	text-align: center;
+}
+
+FIGURE.report FIGCAPTION {
+	font-weight: bold;
+}
+
 .twitter-row {
 	margin-bottom: 1em ;
 }
