@@ -1,0 +1,27 @@
+---
+layout: report-de
+title: Kanban
+---
+<h1 class="caimito-main-color">Kanban</h1>
+<h2 class="caimito-green-color"></h2>
+
+<p>Kanban kommt vom japanischen Begriff <em>kan ban</em> und bedeutet in etwa Signaltafel. In Fertigungsbetrieben wird damit z.B. gut sichtbar dargestellt, daß ein bestimmtes Produktionsmittel nachgefüllt werden muß. Die Grundidee ist in einem Produktionsablauf Dinge durch den nachgeordneten Produktionsschritt anfordern zu lassen anstelle sie vom vorherigen Schritt nach hinten schieben zu lassen. Statt das sich Halbfertigprodukte irgendwo sammeln wird nur soviel produziert wie weiter hinten tatsächlich benötigt wird. Im Englischen wird das als <em>pull system</em> bezeichnet.</p>
+
+<figure class="report">
+	<img src="kanban.png">
+	<figcaption>Kanban Signaltafel</figcaption>
+</figure>
+
+<p>In der Softwareentwicklung könnte man kanban z.B. so nutzen, wie im Diagramm dargestellt. In der ersten Spalte sammelt man die neuen Anforderungen. Sobald dann Zeit für die Analyse einer neuen Anforderung ist, wird diese von "Neu" nach "Analyse" verschoben und wandert dann nach und nach in Richtung "Fertig". Statt Arbeit den Analysten, Programmierern und Testern zuzuweisen, fordern diese einfach die nächste Aufgabe an.</p>
+
+<h3>Vermeidung von Staus</h3>
+<p>Ganz wie im Verkehr auf der Autobahn wird in der praktischen Anwendung von kanban häufig ein Limit gesetzt. Man will nicht, daß sich z.B. in der Spalte "Test" die Aufgaben auftürmen und die Tester überflutet werden. Würde das geschehen, würde sehr verscheinlich die Qualität der Software durch fehlende rechtzeitige Rückmeldung sinken und viele Dinge müßten nachträglich korrigiert werden. Es kommt zuerst zum Stau und dann zum Infarkt des Gesamtsystems durch eine Art Schneeballeffekt.</p> 
+
+<p>Daher setzt man für jede Spalte ein Limit, sodaß z.B. in der Spalte Test nur zwei Aufgaben warten dürfen. Das bedeutet dann, daß die Arbeitsschritte davor entsprechend langsamer durchgeführt werden müssen oder die Mitarbeiter weiter hinten helfen, um das Gesamtsystem am Laufen zu halten.</p>
+
+<h3>Erfolgreich ohne Planung</h3>
+<p>Häufig wird gemessen wie lange es dauert die Lösung zu einer neuen Anforderung zu liefern. Das ist dann die Zykluszeit (engl. cycle time). Auch kann die Zeit des Verbleibs in einzelnen Spalten interessant sein, um Hinweise auf Schwierigkeiten und Gelegenheiten für Verbesserungen zu liefern.</p>
+<p>Durch Kenntnis der Zykluszeit kann ein Team, welches kanban benutzt, ganz ohne Planung und Aufwandsschätzung auskommen, weil es aus der Erfahrung sagen kann wann eine neue Anforderung an die Software sehr wahrscheinlich erfüllt sein wird.</p>
+
+<h3>Kanban mit Scrum</h3>
+<p>Gern wird eine kanban Signaltafel auch in Verbindung mit Scrum benutzt. Statt die für den Sprint vorgesehenen Aufgaben einfach ungeordnet an die Wand zu heften, teilt man die Wand in Spalten ein und hat so ein Werkzeug zur Koordinierung der unterschiedlichen Rollen im Team.</p>
