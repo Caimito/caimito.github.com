@@ -138,3 +138,7 @@ DL.full-schedule DD {
 DL.article DD {
 	margin-bottom: 0.5em;
 }
+
+FIGCAPTION {
+	text-align: center;
+}
