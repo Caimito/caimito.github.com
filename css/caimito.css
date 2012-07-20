@@ -134,3 +134,7 @@ FIGURE.report FIGCAPTION {
 DL.full-schedule DD {
 	margin-bottom: 1.5em;
 }
+
+DL.article DD {
+	margin-bottom: 0.5em;
+}
