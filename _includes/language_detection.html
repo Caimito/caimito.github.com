@@ -1,7 +1,6 @@
 <script type='text/javascript'>
 var l_lang;
 
-jQuery(function($){
 	l_lang = readCookie("lang") ;
 	if (l_lang == null) {
 		if (navigator.userLanguage) // Explorer
@@ -22,6 +21,7 @@ jQuery(function($){
 		}
 	}
 
+jQuery(function($){
 	$("#languageSelector").val(l_lang) ;
 }) ;
 

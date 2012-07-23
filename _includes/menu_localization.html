@@ -4,9 +4,23 @@ jQuery(function($){
 	if (isEnglish()) {
 		$("#aboutLink").html("About") ;
 	} else if (isGerman()) {
+		$("#homeLink").attr("href", "/de") ;
+
+		$("#atddLink").attr("href", "/de/atdd.html") ;
+
+		$("#designLink").attr("href", "/de/acd.html") ;
+		
 		$("#consultingLink").html("Lernen") ;
+		$("#consultingLink").attr("href", "/de/consulting.html") ;
+		
 		$("#knowledgeLink").html("Wissen") ;
+		$("#knowledgeLink").attr("href", "/de/knowledge.html") ;
+		
+		$("#blogLink").html("Aktuell") ;
+		$("#blogLink").attr("href", "/de/blog.html") ;
+		
 		$("#aboutLink").html("&Uuml;ber uns") ;
+		$("#aboutLink").attr("href", "/de/about.html") ;
 	}
 }) ;
 </script>

@@ -142,3 +142,11 @@ DL.article DD {
 FIGCAPTION {
 	text-align: center;
 }
+
+DIV.blog H1 {
+	color: #990066;
+}
+
+DIV.blog H2 {
+	color: #618973;
+}
