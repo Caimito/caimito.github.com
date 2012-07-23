@@ -25,8 +25,17 @@ title: Caimito - Activity-Centered Design, Acceptance Test-Driven Development, S
 		</div>
 
 		<div class="row twitter-row">
-			<div class="span12">
+			<div class="span8">
 				<div class="tweet"></div>
+			</div>
+			<div class="span4">
+				<h2 class="caimito-main-color" style="margin-top: -7px; margin-bottom: -11px">From Our Blog</h2>
+				<dl class="posts">
+				    {% for post in site.tags.en limit:3 %}
+			      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+						<dd>{{ post.date | date: "%d %b %Y" }}</dd> 
+				    {% endfor %}
+				</dl>
 			</div>
 		</div>
 
