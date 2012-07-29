@@ -2,7 +2,27 @@
 layout: main
 title: Caimito - Aktivitätsorientiertes Design, Acceptance Test-Driven Development, Lernendes Unternehmen, Unternehmensentwicklung
 ---
-	{% include conference-schedule-de.html %}
+	<div class="row twitter-row">
+		<div class="span8">
+			<h2 class="caimito-main-color" style="margin-top: -7px; margin-bottom: -11px">Aktuelle Workshops und Seminare</h2>
+			<dl class="posts">
+	      		<dt><a href="overcoming-crisis.html">Workshop: Mit Kanban Optimierungspotenziale aufdecken</a></dt>
+				<dd>Gestärkt aus Krisen hervorgehen. Von der Optimierung der Abläufe zur Verbesserung der Zusammenarbeit.</dd> 
+
+	      		<dt><a href="atdd-class.html">Seminar: Acceptance Test-Driven Development</a></dt>
+				<dd>Vorteile von ATDD: Vermeidung von Defekten, Verbesserung der Zusammenarbeit und es wird tatsächlich die gewünschte Software entwickelt.</dd> 
+			</dl>
+		</div>
+		<div class="span4">
+			<h2 class="caimito-main-color" style="margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</h2>
+			<dl class="posts">
+			    {% for post in site.tags.en limit:3 %}
+		      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+					<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
+			    {% endfor %}
+			</dl>
+		</div>
+	</div>
 
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
@@ -24,21 +44,8 @@ title: Caimito - Aktivitätsorientiertes Design, Acceptance Test-Driven Developm
       		</div>
 		</div>
 
-		<div class="row twitter-row">
-			<div class="span8">
-				<div class="tweet"></div>
-			</div>
-			<div class="span4">
-				<h2 class="caimito-main-color" style="margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</h2>
-				<dl class="posts">
-				    {% for post in site.tags.en limit:3 %}
-			      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-						<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
-				    {% endfor %}
-				</dl>
-			</div>
-		</div>
-
+		{% include conference-schedule-de.html %}
+		
 		<div class="row">
         	<div class="span4">
           		<h2 class="caimito-main-color">ATDD / BDD / TDD</h2>
