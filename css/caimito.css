@@ -150,3 +150,27 @@ DIV.blog H1 {
 DIV.blog H2 {
 	color: #618973;
 }
+
+.eventbrite {
+	font-size: 12pt;
+}
+
+DIV.eb_event_list_item {
+	width: 100%;
+}
+
+.eb_event_list_title {
+	padding: 5px;
+}
+
+.eb_event_list_date {
+	padding: 5px;
+}
+
+.eb_event_list_time {
+	display: none;
+}
+
+.eb_event_list_location {
+	padding: 5px;
+}
