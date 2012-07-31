@@ -4,7 +4,7 @@ title: Caimito - Aktivitätsorientiertes Design, Acceptance Test-Driven Developm
 ---
 	<div class="row twitter-row">
 		<div class="span8">
-			<h2 class="caimito-main-color" style="margin-top: -7px; margin-bottom: -11px">Aktuelle Workshops und Seminare</h2>
+			<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">Aktuelle Workshops und Seminare</p>
 			<dl class="posts">
 	      		<dt><a href="overcoming-crisis.html">Workshop: Mit Kanban Optimierungspotenziale aufdecken</a></dt>
 				<dd>Gestärkt aus Krisen hervorgehen. Von der Optimierung der Abläufe zur Verbesserung der Zusammenarbeit.</dd> 
@@ -14,7 +14,7 @@ title: Caimito - Aktivitätsorientiertes Design, Acceptance Test-Driven Developm
 			</dl>
 		</div>
 		<div class="span4">
-			<h2 class="caimito-main-color" style="margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</h2>
+			<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</p>
 			<dl class="posts">
 			    {% for post in site.tags.en limit:3 %}
 		      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
@@ -24,25 +24,11 @@ title: Caimito - Aktivitätsorientiertes Design, Acceptance Test-Driven Developm
 		</div>
 	</div>
 
-		<div id="myCarousel" class="carousel slide">
-			<div class="carousel-inner">
-      			<div class="item active hero-unit caimito-hero" style="background: url('/img/kids-surfboard.png')">
-					<div class="caimito-hero-text">
-						<h1>Lernendes Unternehmen</h1>
-					</div>
-				</div>
-      			<div class="item hero-unit caimito-hero" style="background: url('/img/pickup.png')">
-					<div class="caimito-hero-text">
-						<h1>Vermeidung von Defekten</h1>
-					</div>
-				</div>
-      			<div class="item hero-unit caimito-hero" style="background: url('/img/rainforest.png')">
-					<div class="caimito-hero-text">
-						<h1>Das richtige Problem l&ouml;sen</h1>
-					</div>
-				</div>
-      		</div>
+	<div class="row">
+		<div class="span12">
+			<a href="contact.html"><img src="/img/Talk-To-Me-DE.png" style="margin-top: -30px; margin-bottom: 10px"/></a>
 		</div>
+	</div>
 
 		{% include conference-schedule-de.html %}
 		
