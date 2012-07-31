@@ -16,7 +16,7 @@ title: Caimito - Aktivitätsorientiertes Design, Acceptance Test-Driven Developm
 		<div class="span4">
 			<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</p>
 			<dl class="posts">
-			    {% for post in site.tags.en limit:3 %}
+			    {% for post in site.tags.de limit:3 %}
 		      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
 					<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
 			    {% endfor %}
@@ -26,7 +26,7 @@ title: Caimito - Aktivitätsorientiertes Design, Acceptance Test-Driven Developm
 
 	<div class="row">
 		<div class="span12">
-			<a href="contact.html"><img src="/img/Talk-To-Me-DE.png" style="margin-top: -30px; margin-bottom: 10px"/></a>
+			<a href="contact-sns.html"><img src="/img/Talk-To-Me-DE.png" style="margin-top: -30px; margin-bottom: 10px"/></a>
 		</div>
 	</div>
 
