@@ -57,6 +57,14 @@ title: Acceptance Test-Driven Development
 			<p><strong>Möchten Sie mehr wissen?</strong></p>
 			<p><a href="mailto:info@caimito.net">Kontaktieren Sie uns</a> für eine persönliche Beratung!</p>
 		</div>
+
+		<h2 class="caimito-main-color">Mehr über ATDD erfahren</h2>
+		<dl class="posts">
+		    {% for post in site.tags.atdd limit:10 %}
+	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+				<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
+		    {% endfor %}
+		</dl>
 	</div>
 </div>
 
