@@ -11,10 +11,10 @@ if (l_lang == null) {
 	  l_lang = "en";
 
 	l_lang = l_lang.toLowerCase().substr(0,2)
+}
 
-	if (document.location.pathname == "/" || document.location.pathname == "/index.html") {
-		language_redirect(l_lang) ;
-	}
+if (document.location.pathname == "/" || document.location.pathname == "/index.html") {
+	language_redirect(l_lang) ;
 }
 
 jQuery(function($){
