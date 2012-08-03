@@ -8,7 +8,14 @@ title: Über Caimito Technologies
 <div class="row" style="margin-top: 2em; margin-bottom: 2em">
 	<div class="span4">
 		<p style="margin-bottom: 2em"><img src="/img/StephanSchwab-200.png"/></p>
-		<p>Persönliches Blog:<br/> <a href="http://blog.stephan-schwab.com" target="_blank">http://blog.stephan-schwab.com</a></p>
+
+		<h3 class="caimito-green-color">Aktuelle Beiträge</h3>
+		<dl class="posts">
+		    {% for post in site.tags.sns-de limit:4 %}
+	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+				<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
+		    {% endfor %}
+		</dl>
 	</div>
 	<div class="span8">
 		<h3>Stephan Schwab</h3>
@@ -16,6 +23,8 @@ title: Über Caimito Technologies
 		<p>Herr Schwab programmiert seit 1981. Seitdem hat er auf einer Vielzahl unterschiedlicher Plattformen und mit etwa 20 verschiedenen Programmiersprachen gearbeitet. Seine eigenen erfolgreichen Fehler und die von anderen führten zu der Erkenntnis, daß viel zu häufig Unternehmen Software entwickeln, die das falsche Problem löst. In seiner aktuellen Tätigkeit konzentriert er sich vor allem darauf was Anwender und Unternehmen wirklich mit Software machen wollen und wie man Software entwickelt, die Kunden begeistert.</p>
 		<p>Gebürtig aus Deutschland hat Herr Schwab etwa 5 Jahre in USA und etwa 6 Jahre in verschiedenen Ländern Lateinamerikas gelebt und gearbeitet. Zumindest bisher. Er spricht fließend Deutsch, Englisch und Spanisch.</p>
 		<p>Wenn er nicht beim Kunden als Coach oder Berater engagiert ist, hält er Vorträge auf nationalen und internationalen Konferenzen oder beteiligt sich an Branchentreffen im In- und Ausland. Seine Freizeit verbringt er mit der Familie und seinem Peruanischen Gangpferd.</p>
+
+		<p>Persönliches Blog:<br/> <a href="http://blog.stephan-schwab.com" target="_blank">http://blog.stephan-schwab.com</a></p>
 	</div>
 </div>
 
