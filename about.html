@@ -8,7 +8,14 @@ title: About Caimito Technologies
 <div class="row" style="margin-top: 2em; margin-bottom: 2em">
 	<div class="span4">
 		<p style="margin-bottom: 2em"><img src="/img/StephanSchwab-200.png"/></p>
-		<p>Personal Blog:<br/> <a href="http://blog.stephan-schwab.com" target="_blank">http://blog.stephan-schwab.com</a></p>
+		
+		<h3 class="caimito-green-color">Recent Articles</h3>
+		<dl class="posts">
+		    {% for post in site.tags.sns-en limit:4 %}
+	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+				<dd>{{ post.date | date: "%d %b %Y" }}</dd> 
+		    {% endfor %}
+		</dl>
 	</div>
 	<div class="span8">
 		<h3>Stephan Schwab</h3>
@@ -24,6 +31,8 @@ title: About Caimito Technologies
 		<p>When he is not coaching, teaching or otherwise engaged in client work Stephan speaks at
 		international conferences or visits industry gatherings - or simply enjoys some free time with
 		family and his horse, a Peruvian Paso.</p>
+		
+		<p>Personal Blog:<br/> <a href="http://blog.stephan-schwab.com" target="_blank">http://blog.stephan-schwab.com</a></p>
 	</div>
 </div>
 
