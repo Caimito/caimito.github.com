@@ -4,15 +4,41 @@ title: Das lernende Unternehmen
 ---
 <h1>Das lernende Unternehmen</h1>
 <h3 class="caimito-green-color">Wie man Veränderungen zum eigenen Vorteil nutzen kann</h3>
-<p class="introduction">Das Leben und die Arbeitswelt sind immer stärker weltweit vernetzt. Auch sind sich die Menschen immer mehr ihrem Umfeld, in dem sie leben und arbeiten, bewußt. Durch die Globalisierung verbreiten sich neue Einflüße in Kultur und Arbeit schneller. Für Unternehmen resultieren durch diese Veränderungen immer neue Her&shy;aus&shy;for&shy;de&shy;run&shy;gen. Es wird schwieriger Kunden zu erreichen und gute Mitarbeiter zu halten.</p>
+
+<div class="row">
+	<div class="span8">
+		<p class="introduction">Das Leben und die Arbeitswelt sind immer stärker weltweit vernetzt. Auch sind sich die Menschen immer mehr ihrem Umfeld, in dem sie leben und arbeiten, bewußt. Durch die Globalisierung verbreiten sich neue Einflüße in Kultur und Arbeit schneller. Für Unternehmen resultieren durch diese Veränderungen immer neue Her&shy;aus&shy;for&shy;de&shy;run&shy;gen. Es wird schwieriger Kunden zu erreichen und gute Mitarbeiter zu halten.</p>
+	</div>
+	<div class="span4">
+		<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</p>
+		<dl class="posts">
+		    {% for post in site.tags.management-de limit:2 %}
+	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+				<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
+		    {% endfor %}
+		</dl>
+	</div>
+</div>
 
 <figure class="article">
 	<img src="/img/kids-surfboard.png"/>
-	<figcaption><p>Kinder teilen sich ein Surfbrett, Laguna Gri-Gri, Dominican Republic</p></figcaption>
+	<figcaption><p>Kinder teilen sich ein Surfbrett, Laguna Gri-Gri, Dominikanische Republik</p></figcaption>
 </figure>
 
 <div class="row">
 	<div class="span6">	
+		<h2 class="caimito-main-color">Entwicklung von Unternehmen</h2>
+		<p>Traditionell geführte Unternehmen können sich zu an&shy;passungs&shy;fähigen Systemen entwickeln und sind so in der Lage sich immer wieder neu zu erfinden sobald sich die Marktbedingungen ändern.</p>
+		
+		<p><a href="http://www.stoosnetwork.org" target="_blank"><img src="/img/StoosNetwork.png" align="right" style="margin-left: 15px; margin-bottom: 10px"/></a>Menschen sind lebenslang Lernende. Niemand muß einem Säugling lehren wie man läuft, spricht oder die Welt um ihn herum versteht. Kleinkinder setzen dies in komplexeren Bereichen fort. Auch als Erwachsene lernen wir beständig neue Fähigkeiten. Aber wir laufen Gefahr die falschen Dinge zu erlernen. Wir mögen lernen wie man den Vorgesetzten fürchtet und kümmern uns deswegen nicht genug um die Kunden. Wir mögen lernen wie man in der Masse mitschwimmt anstelle unsere Schlußfolgerungen mit anderen zu teilen. Wir mögen lernen wie man im Groß&shy;unter&shy;nehmen durch die Ränge aufsteigt oder wie man durch häufigen Jobwechsel sein Einkommen verbessert. Das alles hilft nicht besser mit den Kollegen und Mitarbeitern von Geschäftspartnern zu&shy;sam&shy;men&shy;zu&shy;ar&shy;bei&shy;ten. Es ist nicht im Interesse Ihres Unternehmens und Ihren Kunden hilft es auch nicht.</p>
+
+		<div class="callout">
+			<p><strong>Möchten Sie mehr wissen?</strong></p>
+			<p><a href="mailto:info@caimito.net">Kontaktieren Sie uns</a> für eine persönliche Beratung!</p>
+		</div>
+
+		<p>Für den Wandel zu einem lernenden Unternehmen müssen wir erneut lernen die Zusammenhänge und Folgen unseres Handelns zu sehen, anstelle nur gut in unserer jeweiligen Abteilung, wo wir zufällig gelandet sind, isoliert zu funktionieren.</p>
+		
 		<h2 class="caimito-main-color">Agile Vorgehensweisen</h2>
 		<p><strong>Viele Jahre</strong> bevor der Begriff <strong>Agile</strong> geprägt wurde haben unsere <strong>Fach&shy;leute</strong> agile Vorgehensweisen in ihrer täglichen Arbeit benutzt. Für uns ist es die <strong>normalste Sache</strong> der Welt <strong>Fortschritt</strong> in Form von <strong>funk&shy;tio&shy;nie&shy;ren&shy;der Software</strong> zu zeigen - ganz so wie es normal für einen Fisch ist im Wasser zu schwimmen.</p>
 		<p>Auf der anderen Seite verstehen wir, daß aufgrund seiner bisherigen Ausbildung nicht jeder <em>Wasser</em> als die natürlichste Sache der Welt er&shy;ken&shy;nen kann. Unseren Kunden bieten wir unsere Hilfe an, damit auch Sie und Ihre Mitarbeiter ein nachhaltiges Arbeitsumfeld zum fort&shy;wäh&shy;ren&shy;den Lernen erschaffen können.</p>
@@ -42,17 +68,6 @@ title: Das lernende Unternehmen
 		<p>Jeder Einsatz für Beratung oder Coaching ist anders. Wir wollen Ihnen <strong>zuhöhren</strong>, um zu <strong>verstehen</strong> in welcher Lage sich Ihr Unter&shy;nehmen befindet, bevor wir Maßnahmen vorschlagen, zu einem Seminar raten oder beginnen Sie und Ihre Mitarbeiter zu coachen. Danach <strong>ent&shy;wi&shy;ckeln</strong> wir <strong>gemeinsam</strong> eine <strong>Karte</strong>, ähnlich einer story map für agile Software-Entwicklung, auf der wir unsere <strong>Ziele dar&shy;stellen</strong>. An einer Wand angebracht hilft uns die Karte unseren <strong>Fortschritt</strong> zu <strong>messen</strong> und <strong>sichtbar</strong> zu machen. Mit einer zu&shy;sätz&shy;li&shy;chen <strong>Kanban-Tafel</strong> stellen wir die aktuelle Lage dar und planen die nächsten Schritte.</p>
 	</div>
 	<div class="span6">
-		<h2 class="caimito-main-color">Entwicklung von Unternehmen</h2>
-		<p>Traditionell geführte Unternehmen können sich zu an&shy;passungs&shy;fähigen Systemen entwickeln und sind so in der Lage sich immer wieder neu zu erfinden sobald sich die Marktbedingungen ändern.</p>
-		
-		<p><a href="http://www.stoosnetwork.org" target="_blank"><img src="/img/StoosNetwork.png" align="right" style="margin-left: 15px; margin-bottom: 10px"/></a>Menschen sind lebenslang Lernende. Niemand muß einem Säugling lehren wie man läuft, spricht oder die Welt um ihn herum versteht. Kleinkinder setzen dies in komplexeren Bereichen fort. Auch als Erwachsene lernen wir beständig neue Fähigkeiten. Aber wir laufen Gefahr die falschen Dinge zu erlernen. Wir mögen lernen wie man den Vorgesetzten fürchtet und kümmern uns deswegen nicht genug um die Kunden. Wir mögen lernen wie man in der Masse mitschwimmt anstelle unsere Schlußfolgerungen mit anderen zu teilen. Wir mögen lernen wie man im Groß&shy;unter&shy;nehmen durch die Ränge aufsteigt oder wie man durch häufigen Jobwechsel sein Einkommen verbessert. Das alles hilft nicht besser mit den Kollegen und Mitarbeitern von Geschäftspartnern zu&shy;sam&shy;men&shy;zu&shy;ar&shy;bei&shy;ten. Es ist nicht im Interesse Ihres Unternehmens und Ihren Kunden hilft es auch nicht.</p>
-
-		<div class="callout">
-			<p><strong>Möchten Sie mehr wissen?</strong></p>
-			<p><a href="mailto:info@caimito.net">Kontaktieren Sie uns</a> für eine persönliche Beratung!</p>
-		</div>
-
-		<p>Für den Wandel zu einem lernenden Unternehmen müssen wir erneut lernen die Zusammenhänge und Folgen unseres Handelns zu sehen, anstelle nur gut in unserer jeweiligen Abteilung, wo wir zufällig gelandet sind, isoliert zu funktionieren.</p>
 
 		<h2 class="caimito-main-color">Lean Startup</h2>
 		<p>Egal ob Sie eine großartige Geschäftsidee haben und ein Startup-Unternehmen gründen möchten oder ob Sie in einem mittleren oder großen Unternehmen für eine Abteilung zuständig sind, Caimito kann Ihnen helfen mit Ihrem Vorhaben nachhaltigen Erfolg zu haben.</p>
