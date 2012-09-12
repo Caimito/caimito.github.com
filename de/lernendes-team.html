@@ -1,0 +1,51 @@
+---
+layout: article
+title: Das lernende Team
+---
+<h1>Das lernende Team</h1>
+<h3 class="caimito-green-color">Nachhaltiger Erfolg durch beständige Entwicklung</h3>
+
+<div class="row">
+	<div class="span8">
+		<p class="introduction">Teams sind innerhalb eines Unternehmens die kleinste lernfähige Einheit, welche langfristig Bestand haben kann. Teams können schnell und zielgerichtet auf neue Anforderungen aus dem Markt reagieren und dadurch den dauerhaften Erfolg des Unternehmens sichern.</p>
+	</div>
+	<div class="span4">
+		<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</p>
+		<dl class="posts">
+		    {% for post in site.tags.team-de limit:3 %}
+	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+				<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
+		    {% endfor %}
+		</dl>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span6">	
+		<h2 class="caimito-main-color">Was ein Team ist</h2>
+		<p>Ein Team ist eine Gruppe von Menschen, die sich über längere Zeit für ein gemeinsames Ziel engagieren. Teams haben eine eigene Identität und die Mitglieder verhalten sich entsprechend expliziter sowie ungeschriebener Regeln. Je länger die Gruppe zusammen&shy;bleibt, desto effektiver kann das Team wirken.</p>
+	</div>
+	<div class="span6">	
+		<h2 class="caimito-main-color">Unternehmen bestehen aus Teams</h2>
+		<p>Tatsächlich besteht jedes Unternehmen aus einer Reihe von offiziellen und inoffiziellen Teams. Offiziell sind Arbeitsgruppen für Projekte. Die inoffiziellen Teams sind kaum erkennbar, weil sie außerhalb der durch das Organigramm dargestellten Hierarchie informal zwischen den Mitarbeitern existieren.</p>
+	</div>
+</div>
+
+<figure class="article">
+	<img src="/img/kids-surfboard.png"/>
+	<figcaption><p>Kinder teilen sich ein Surfbrett, Laguna Gri-Gri, Dominikanische Republik</p></figcaption>
+</figure>
+
+<div class="row">
+	<div class="span6">	
+		<h2 class="caimito-main-color">Wie man Teams formt</h2>
+		<p>Teams entwickeln sich aus Arbeitsgruppen durch langfristige Angleichung der Ziele und Interessen der Gruppenmitglieder mit den übergeordneten Zielen, für welche das Team gegründet wurde.</p>
+		<p>Durch Team-Coaching kann man aus Arbeitsgruppen stabile Teams formen.</p>
+		<p><a href="mailto:info@caimito.net">Kontaktieren Sie uns</a> für eine persönliche Beratung!</p>
+	</div>
+	<div class="span6">	
+		<h2 class="caimito-main-color">Teams lernen - Arbeitsgruppen nicht</h2>
+		<p>Arbeitsgruppen werden mit dem Ende eines Projektes aufgelöst. Dadurch geht implizites Wissen verloren, weil die Gruppenmitglieder andere Aufgaben in anderen Bereichen annehmen.</p>
+		<p>Teams dagegen bauen implizites Wissen auf und entwickeln sich beständig fort. Durch die Ansammlung von Wissen und Erfahrungen werden Teams irgendwann zu Experten in ihrem Sachgebiet. Ganz so wie einzelne Menschen sich vom Anfänger zum Meister ihres Faches entwickeln.</p>
+	</div>
+</div>
