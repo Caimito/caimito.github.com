@@ -3,7 +3,11 @@
 }
 
 .caimito-green-color {
-	color: #618973;
+	color: #007A00;
+}
+
+H4 {
+	font-size: 15px;
 }
 
 .footer {
@@ -169,7 +173,7 @@ DIV.blog H1 {
 }
 
 DIV.blog H2 {
-	color: #618973;
+	color: #007A00;
 }
 
 .eventbrite {
