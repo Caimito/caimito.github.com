@@ -1,0 +1,113 @@
+---
+layout: article-de
+title: Netzwerk für bessere Software
+---
+<h1>Netzwerk für bessere Software</h1>
+<p class="introduction">Wir suchen nach Möglichkeiten Unternehmen und die in ihnen tätigen Softwareentwickler, Analytiker und Tester in die Lage zu versetzen bessere Software zu entwickeln. Wir wollen helfen Kunden und Anwender zu begeistern.</p>
+
+<div class="row">
+	<div class="span6">
+		<h2 class="caimito-main-color">Stefan Haas</h2>
+		<p>&nbsp;</p>
+		<div class="row">
+			<div class="span2">
+				<p align="center">
+					<a href="http://www.haaslab.net"><img src="http://www.gravatar.com/avatar/haaslab?s=120"/></a></br>
+					<img src="/img/language-flags/32x32/flag_rotate-03.png"/>
+					<img src="/img/language-flags/32x32/flag_rotate-02.png"/>
+				</p>
+			</div>
+			<div class="span4">
+				<h4>Wie nennt er sich</h4>
+				<p class="network description">Beschreibung</p>
+			</div>
+		</div>
+		<p>&nbsp;</p>
+		<p>Aus dem persönlichen Blog:</p>
+		<ul id="StefanHassRss" class="network-rss">
+	    </ul>
+	</div>
+	<div class="span6">
+		<h2 class="caimito-main-color">Joel Helbling</h2>
+		<p>&nbsp;</p>
+		<div class="row">
+			<div class="span2">
+				<p align="center">
+					<a href="http://www.joelhelbling.com"><img src="http://www.gravatar.com/avatar/b83baca99f89475755ce98e97d2e75ce?s=120"/></a></br>
+					<img src="/img/language-flags/32x32/flag_rotate-02.png"/>
+					<img src="/img/language-flags/32x32/flag_rotate-09.png"/>
+				</p>
+			</div>
+			<div class="span4">
+				<h4>Wie nennt er sich</h4>
+				<p class="network description">Beschreibung</p>
+			</div>
+		</div>
+		<p>&nbsp;</p>
+		<p>Aus dem persönlichen Blog:</p>
+		<ul id="JoelHelblingRss" class="network-rss">
+	    </ul>
+	</div>
+</div>
+<div class="row">
+	<div class="span6">
+		<h2 class="caimito-main-color">Stephan Schwab</h2>
+		<p>&nbsp;</p>
+		<div class="row">
+			<div class="span2">
+				<p align="center">
+					<a href="http://www.caimito.net"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120"/></a></br>
+					<img src="/img/language-flags/32x32/flag_rotate-03.png"/>
+					<img src="/img/language-flags/32x32/flag_rotate-02.png"/>
+					<img src="/img/language-flags/32x32/flag_rotate-12.png"/>
+				</p>
+			</div>
+			<div class="span4">
+				<h4>Software Development Coach</h4>
+				<p class="network description">Stephan Schwab programmiert seit 1981. Seitdem hat er auf einer Vielzahl unterschiedlicher Plattformen und mit etwa 20 verschiedenen Programmiersprachen gearbeitet. In seiner aktuellen Tätigkeit konzentriert er sich vor allem darauf was Anwender und Unternehmen wirklich mit Software machen wollen und wie man Software entwickelt, die Kunden begeistert.</p>
+			</div>
+		</div>
+		<p>&nbsp;</p>
+		<p>Aus dem persönlichen Blog:</p>
+		<ul id="StephanSchwabRss1" class="network-rss">
+	    </ul>
+
+		<p>Aus dem Notizblog von Caimito Technologies:</p>
+		<ul id="StephanSchwabRss2" class="network-rss">
+	    </ul>
+	</div>
+	<div class="span6">
+	</div>
+</div>
+
+<script type="text/javascript" >
+$(document).ready(function(){
+	$('#StephanSchwabRss1').FeedEk({
+		FeedUrl : 'http://www.stephan-schwab.com/rss.xml',
+		MaxCount : 5,
+		ShowDesc : false,
+		ShowPubDate: false
+	});
+	$('#StephanSchwabRss2').FeedEk({
+		FeedUrl : 'http://www.caimito.net/de/posts.xml',
+		MaxCount : 5,
+		ShowDesc : false,
+		ShowPubDate: false
+	});
+
+	$('#StefanHassRss').FeedEk({
+		FeedUrl : 'http://blog.haaslab.net/feeds/posts/default?alt=rss',
+		MaxCount : 5,
+		ShowDesc : false,
+		ShowPubDate: false
+	});
+
+	$('#JoelHelblingRss').FeedEk({
+		FeedUrl : 'http://www.joelhelbling.com/articles.xml',
+		MaxCount : 5,
+		ShowDesc : false,
+		ShowPubDate: false
+	});
+	
+});
+</script>
