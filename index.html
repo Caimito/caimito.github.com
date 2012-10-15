@@ -1,68 +1,13 @@
----
-layout: main
-title: Caimito - Activity-Centered Design, Acceptance Test-Driven Development, Smart Collaboration, Organizational Development
----
-<h1 class="caimito-main-color">We help you to develop capabilities</h1>
-<p>Does your company possess the right mix of technical and organizational capabilities?</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script language="javascript" src="/js/caimito.js" type="text/javascript"></script>
+	<script type='text/javascript'>
+		language_redirect(detectLanguage()) ;
+	</script>
+  </head>
 
-<div class="row">
-	<div class="span6">
-		<h2 class="caimito-green-color">You are an established company?</h2>
-		<p><img src="/img/established-corporation.png" align="left" style="margin-right: 15px"/> 
-		You increase your competitiveness by improving your technical and organizational capabilities. To better the quality of your products for increased customer satisfaction. To reduce internal friction. To allow your staff to innovate. To be ahead of the competition by catching new trends earlier.</p>
-		<br clear="all"/>
-	</div>
-	<div class="span6">
-		<h2 class="caimito-green-color" style="text-align: right">You are a Startup?</h2>
-		<p><img src="/img/lightbulb.png" align="right" style="margin-left: 15px"/>
-		You've got an idea for a great product. But who is interested in your product? What should it look like? To validate your idea you need to ship something. To turn your idea into a company you need good technical and organizational capabilities that allow fast and effective product and customer development.</p>
-		<br clear="all"/>
-	</div>
-</div>
-
-<div class="row">
-      	<div class="span4">
-        		<h2 class="caimito-main-color">ATDD / BDD / TDD</h2>
-		<h3 class="caimito-green-color">Preventing defects from the start</h3>
-         		<p>Stakeholders and development team define together, in the form of <strong>executable spe&shy;ci&shy;fi&shy;ca&shy;tions</strong>, what the software under de&shy;ve&shy;lop&shy;ment should do.</p>
-		<p><img src="/img/atdd-run.png"></p>
-		<p>Continuous ve&shy;ri&shy;fi&shy;ca&shy;tion of production code against examples of correct behavior gives you the zero defect advantage.</p>
-		<p><strong>No sweaty hands before demos!</strong></p>
-        		<p><a class="btn" href="atdd.html">Learn more &raquo;</a></p>
-      	</div>
-      	<div class="span4">
-        		<h2 class="caimito-main-color">Activity-Centered Design</h2>
-		<h3 class="caimito-green-color">Solving the right problem</h3>
-         		<p>All too often simply the <strong>wrong software</strong> gets created. It may work but not as the users or stakeholders expected. Or it may solve the <strong>wrong problem</strong> altogether. Well designed products are created based on a <strong>deep understanding</strong> of the <strong>activities</strong> users want to perform and are well engineered. This fitness makes these products
-		superior to their competition and in some cases such products shake up an entire industry.</p>
-		<p>Activity-Centered Design helps to create <strong>smarter products</strong> 
-		that solve people's <strong>real problems</strong> by putting the focus on what people want to 
-		do <strong>through</strong> software instead of on how software	is operated.</p>
-        		<p><a class="btn" href="acd.html">Learn more &raquo;</a></p>
-     		</div>
-      	<div class="span4">
-        		<h2 class="caimito-main-color">Learning Organization</h2>
-		<h3 class="caimito-green-color">Building on the agile mindset</h3>
-		<p>The ability to learn quickly allows all kinds of organizations to <strong>adjust</strong> to <strong>fast</strong> paced <strong>change</strong> and meet the expectations of their customers - to be able to <strong>delight</strong> them.</p>
-        		<p>The goal of agile practices has <strong>never</strong> been to improve the <strong>efficiency</strong> of software <strong>pro&shy;duc&shy;tion</strong>. Instead it is all about doing more <strong>effectively</strong> what people in organizations do. Regardless of whether that doing is making software or something else.</p>
-		<p>Learning organizations put an emphasis on <strong>inspect</strong> and <strong>adapt</strong>. They perform controlled experiments, measure thouroughly and then learn from the data for the next cycle.</p>
-        		<p><a class="btn" href="consulting.html">Learn more &raquo;</a></p>
-      	</div>
-</div>
-
-<div class="row twitter-row">
-	<div class="span8">
-		<div class="tweet"></div>
-	</div>
-	<div class="span4">
-		<h2 class="caimito-main-color" style="margin-top: -7px; margin-bottom: -11px">From Our Blog</h2>
-		<dl class="posts">
-		    {% for post in site.tags.en limit:3 %}
-	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-				<dd>{{ post.date | date: "%d %b %Y" }}</dd> 
-		    {% endfor %}
-		</dl>
-	</div>
-</div>
-
-{% include conference-schedule.html %}
+  <body>
+  </body>
+</html>
