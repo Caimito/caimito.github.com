@@ -207,3 +207,10 @@ DIV.eb_event_list_item {
 .description {
 	font-size: 13px;
 }
+
+.quote {
+	font-size: 16px;
+	font-style: italic;
+	color: #007A00;
+	font-weight: bold;
+}
