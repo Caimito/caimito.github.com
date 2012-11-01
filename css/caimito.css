@@ -214,3 +214,17 @@ DIV.eb_event_list_item {
 	color: #007A00;
 	font-weight: bold;
 }
+
+.blogSidebar {
+	background-color: #eeeeee; 
+	padding: 5px;
+}
+
+.blogSidebar P {
+	font-size: 13px;
+	text-align: justify ;
+}
+
+.agileSteps P {
+	text-align: justify ;
+}
