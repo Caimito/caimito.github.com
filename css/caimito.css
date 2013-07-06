@@ -228,3 +228,14 @@ DIV.eb_event_list_item {
 .agileSteps P {
 	text-align: justify ;
 }
+
+TABLE.seminar_overview {
+	border-spacing: 5px;
+	border-collapse:separate;
+}
+
+TABLE.seminar_overview TR TH {
+	color: #990066;
+	text-align: left;
+}
+
