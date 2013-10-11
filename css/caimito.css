@@ -10,6 +10,10 @@ H4 {
 	font-size: 15px;
 }
 
+BLOCKQUOTE P {
+	font-size: 11pt;
+}
+
 DIV.blog BLOCKQUOTE P {
 	font-size: 14px;
 }
