@@ -2,8 +2,27 @@
 layout: main-en
 title: Caimito - Activity-Centered Design, Acceptance Test-Driven Development, Smart Collaboration, Organizational Development, Team-Coaching, Learning Organisation
 ---
-<h1>Team Coaching at the workplace</h1>
+<h1>Team Coaching At The Workplace</h1>
 <h2 class="caimito-green-color">Excellence through sustainable development of organizational and technical capabilities</h2>
+<p>&nbsp;</p>
+<div class="row">
+	<div class="span8">
+		<img src="/img/sns-round.png" align="left" hspace="15">
+		<p>Welcome!<br/>My name is <a href="about-sns.html">Stephan Schwab</a>. I'm the owner of Caimito Technologies and part of a network comprised of coaches for software and organizational development.<p>
+		<p>To <strong>CEOs, Heads of Department, Team Leads</strong>, who are not satisfied with the performance of their software development teams, I offer <strong>team coaching</strong> as a professional service to <strong>improve</strong> the <strong>value creation chain</strong> within their organization and to improve the <strong>quality</strong> of the product they are making.</p> 
+		<p>With over 30 years of experience in the software industry in Europe, North and Central America I coach and train the individual members of your teams. Together we develop their technical and organizational abilities to add new capabilities to your teams and your organization. Our mutual goal is to turn a group of specialists working side by side into a team able to quickly adapt when facing new challenges.</p>
+		<p align="center" class="headline">Let's make sure your company is one of the best.</p>
+	</div>
+	<div class="span4">
+		<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">From The Blog</p>
+		<dl class="posts">
+		    {% for post in site.tags.en limit:5 %}
+	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+				<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
+		    {% endfor %}
+		</dl>
+	</div>
+</div>
 
 <div class="row">
 	<div class="span7">
@@ -20,18 +39,6 @@ title: Caimito - Activity-Centered Design, Acceptance Test-Driven Development, S
 	</div>
 </div>
 <p>&nbsp;</p>
-<div class="row" style="background-color: #FFFFE0">
-	<div class="span8">
-		<h2>Meet And Learn</h2>
-		<p>As an introduction to several topics I offer half-day and full-day seminars in many locations across Europe in <strong>English</strong>, <strong>German</strong>, and <strong>Spanish</strong>. Please have a look at what is scheduled or planned. Or let me know what would be helpful for you and we find a way to make it happen in your location.</p>
-		<p align="center"><a href="seminars.html"><strong>&raquo; Scheduled and planned seminars &laquo;</strong></a></p>
-	</div>
-	<div class="span4">
-		<h2>In Your City</h2>
-		<p><strong>Date and location</strong> of my seminars can be set to meet your needs. Don't hesitate to <a href="mailto:sns@caimito.net?subject=Request for seminar">contact me</a>. Either to plan a public event in your city or a private seminar just for you and your colleagues.</p>
-	</div>
-</div>
-<p>&nbsp;</p>
 <div class="row">
 	<div class="span5">
 		<div  style="background-color: #F5E6F0; padding: 15px">
@@ -39,12 +46,6 @@ title: Caimito - Activity-Centered Design, Acceptance Test-Driven Development, S
 			<p>The difference between a team of advanced professionals and a team of really experienced professionals is caused by continuous learning. Masters of their craft are what they are because of years of practice with well-suited techniques.</p>
 			<p><a href="atdd.html">Acceptance Test-Driven Development</a> (ATDD) and Test-Driven Development (TDD) are useful techniques to develop technical excellence.</p>
 		</div>
-		<p>&nbsp;</p>
-		<h2 class="caimito-main-color">Guaranteed Success</h2>
-		<p>My service comes with a warranty.</p>
-		<p><img align="left" src="/img/sns-round.png" style="margin-right: 15px"/>
-			If we find in two consecutive retrospectives that my team coaching does not cause positive effects, I will waive my fee.</p>
-		<br clear="all"/>
 	</div>
 	<div class="span7">
 		<h2 class="caimito-main-color">Team Coaching</h2>
@@ -56,5 +57,3 @@ title: Caimito - Activity-Centered Design, Acceptance Test-Driven Development, S
 	</div>
 </div>
 <p>&nbsp;</p>
-
-{% include conference-schedule.html %}
