@@ -1,0 +1,73 @@
+---
+layout: article-en
+title: About Caimito Technologies
+---
+
+<h1>About Caimito Technologies</h1>
+
+<div class="row" style="margin-top: 2em; margin-bottom: 2em">
+	<div class="span4">
+		<p style="margin-bottom: 2em"><img src="/img/StephanSchwab-200.png"/></p>
+		<p><a href="http://www.linkedin.com/in/stephanschwab" target="_blank">
+        	<img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Stephan Schwab's profile on LinkedIn">
+		</a></p>
+		
+		<p><a href="https://twitter.com/snscaimito" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @snscaimito</a></p>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
+		<h3 class="caimito-green-color">Recent Articles</h3>
+		<dl class="posts">
+		    {% for post in site.tags.sns-en limit:4 %}
+	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+				<dd>{{ post.date | date: "%d %b %Y" }}</dd> 
+		    {% endfor %}
+		</dl>
+	</div>
+	<div class="span8">
+		<h3>Stephan Schwab</h3>
+		<h4 class="caimito-green-color subheader">Software Development Consultant &amp; Team Coach</h4>
+		<p>Stephan started writing code sometime back in 1981. Since then he has worked on
+		a large number of different platforms using about 20 different programming languages. His 
+		own successful failures and those of others made him realize that all too often organizations 
+		create software that solves the wrong problem. His current work focuses on activities and 
+		how software can be created that better allows people to perform what they want to do.</p>
+		<p>He has lived and worked in his native Germany, about 5 years in the United States, 
+		and about 6 years in different countries of Latin America - so far. Stephan speaks German, 
+		English, and Spanish.</p>
+		<p>When he is not coaching, teaching or otherwise engaged in client work Stephan speaks at
+		international conferences or visits industry gatherings - or simply enjoys some free time with
+		family and his horse, a Peruvian Paso.</p>
+		
+		<p>Personal Blog:<br/> <a href="http://blog.stephan-schwab.com" target="_blank">http://www.stephan-schwab.com</a></p>
+		
+		<div class="tweet"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span4">
+		<h2 class="caimito-main-color">Contact Us</h2>
+		<p>Please send email to <a href="mailto:info@caimito.net">info@caimito.net</a> for a quick reply.</p>
+		<p>We speak <strong>English</strong>, <strong>German</strong>, and <strong>Spanish</strong>.</p>
+	</div>
+	<div class="span8">
+		<h2 class="caimito-main-color">Publications</h2>
+		<a href="http://leanpub.com/activitycentereddesign">
+			<img src="/img/smarter-software-with-activity-centered-design.jpg" align="left" style="margin-right: 5px"/>
+		</a>
+		<h3>Smarter Software with Activity-Centered Design</h3>
+		<p>To many, the word design only describes how something looks but in fact it means how it works and looks. Well designed products are created based on a deep understanding of which activities users want to perform and are well engineered. This fitness makes these products superior to their competition and in some cases such products shake up an entire industry. This book shows how Activity Theory can be used to create smarter software. You will learn how a sucessful software development team can effectively work with users and stakeholders to deliver high quality solutions.</p>
+		<br clear="all"/>
+
+		<a href="http://www.amazon.com/Essays-On-Software-Development-ebook/dp/B007ZV3X4W/"><img src="/img/essays-on-software-development-2012.png" align="left" style="margin-right: 5px"/></a>
+		<h3>Essays<br/>On Software Development<br/>2012</h3>
+		<p>Deep thoughts are often triggered by recent events. This book bundles thoughts on quality, management, and software development practices that appeared on Stephan Schwab's popular blog over the last six years.</p>
+		<br clear="all"/>
+		
+		<h2 class="caimito-main-color">History &amp; Family</h2>
+		<dl>
+			<dt><a href="caimitoOneTeam.html">Caimito One Team</a> - Agile Collaboration and Project Management Tool</dt>
+			<dd>In 2007 Caimito Development S.A. in Panama created a software tool aimed at geographically dispersed teams that use the Scrum process for their projects.</dd>
+		</dl>
+	</div>
+</div>
