@@ -8,6 +8,7 @@ title: Notizblog
 	<div class="span8">
 		<div class="blog">
 			{% for post in site.tags.de limit:1 %}
+				<h1>{{ post.title }}</h1>
 				{{ post.content }}
 			{% endfor %}
 			{% include want-to-know-more-de.html %}

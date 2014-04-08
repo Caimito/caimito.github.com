@@ -195,10 +195,12 @@ FIGCAPTION {
 }
 
 DIV.blog H1 {
+	font-size: 18pt;
 	color: #990066;
 }
 
 DIV.blog H2 {
+	font-size: 16pt;
 	color: #007A00;
 }
 

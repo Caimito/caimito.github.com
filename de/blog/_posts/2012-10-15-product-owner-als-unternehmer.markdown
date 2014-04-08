@@ -7,7 +7,6 @@ tags:
 - org-cap-de
 - acd-de
 ---
-# Product Owner als Unternehmer
 ## Wie eine unternehmerisch denkende Führungskraft Produkte entwickelt
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>

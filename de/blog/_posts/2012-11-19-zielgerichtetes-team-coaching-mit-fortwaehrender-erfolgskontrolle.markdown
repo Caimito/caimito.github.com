@@ -7,7 +7,6 @@ tags:
 - org-cap-de
 - team-de
 ---
-# Zielgerichtetes Team-Coaching mit fortwährender Erfolgskontrolle
 ## Wie man die richtigen Maßnahmen findet und feststellt ob sie wirken
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>

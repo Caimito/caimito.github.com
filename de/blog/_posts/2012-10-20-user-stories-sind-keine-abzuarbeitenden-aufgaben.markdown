@@ -8,7 +8,6 @@ tags:
 - acd-de
 - atdd-de
 ---
-# User Stories sind keine abzuarbeitenden Aufgaben
 ## Wie man zu sinnvollen User Stories durch besseres Verständnis der Anwendertätigkeit kommt
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>

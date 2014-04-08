@@ -6,7 +6,6 @@ tags:
 - sns-de
 - org-cap-de
 ---
-# Flußdiagramm als Werkzeug zur Sichtbarmachung der Arbeit des Managements
 ## Wie Management die Wirkung der eigenen Maßnahmen überprüfen kann
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>

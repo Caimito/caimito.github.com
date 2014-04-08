@@ -7,7 +7,6 @@ tags:
 - org-cap-de
 - atdd-de
 ---
-# Organisatorische Voraussetzungen für ATDD
 ## Faktoren, die den Erfolg von ATDD beeinflussen
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
