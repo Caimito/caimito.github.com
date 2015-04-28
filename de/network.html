@@ -55,10 +55,6 @@ title: Netzwerk für bessere Software
 		<p>Aus dem persönlichen Blog:</p>
 		<ul id="StephanSchwabRss1" class="network-rss">
 	    </ul>
-
-		<p>Aus dem Notizblog von Caimito Technologies:</p>
-		<ul id="StephanSchwabRss2" class="network-rss">
-	    </ul>
 	</div>
 	<div class="span6">
 	</div>
@@ -82,19 +78,5 @@ $(document).ready(function(){
 		ShowDesc : false,
 		ShowPubDate: false
 	});
-	$('#StephanSchwabRss2').FeedEk({
-		FeedUrl : 'http://www.caimito.net/de/posts.xml',
-		MaxCount : 5,
-		ShowDesc : false,
-		ShowPubDate: false
-	});
-
-	$('#StefanHassRss').FeedEk({
-		FeedUrl : 'http://blog.haaslab.net/feeds/posts/default?alt=rss',
-		MaxCount : 5,
-		ShowDesc : false,
-		ShowPubDate: false
-	});
-
 });
 </script>
