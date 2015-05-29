@@ -268,3 +268,9 @@ TABLE.seminar_overview TR TH {
 	font-size: 16pt;
 	margin-bottom: -5pt;
 }
+
+.avatar {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
