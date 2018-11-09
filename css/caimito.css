@@ -275,6 +275,6 @@ TABLE.seminar_overview TR TH {
 	-webkit-border-radius: 50%;
 }
 
-.navbar .nav {
+UL#nav-menu {
   margin: 17px 10px 0 0 ;
 }
