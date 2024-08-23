@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
 
-  <body>
+<head>
+	{% include head-bootstrap.html %}
+</head>
+
+<body>
 	<div id="fb-root"></div>
 	{% include menu-de.html %}
 	<div class="container content-container">
@@ -12,14 +13,18 @@
 			<div class="span8 blog">
 				<h1>{{ page.title }}</h1>
 				{{ content }}
-				<hr/>
+				<hr />
 				<p style="font-weight: bold">Wollen Sie diesen Artikel mit anderen teilen?</p>
 				<table>
-				<tr>
-					<td><div class="g-plusone"></div></td>
-					<td><a href="https://twitter.com/share" class="twitter-share-button" data-via="caimitotech">Tweet</a></td>
-					<td><div class="fb-like" data-send="false" data-width="450" data-show-faces="false"></div></td>
-				</tr>
+					<tr>
+						<td>
+							<div class="g-plusone"></div>
+						</td>
+						<td><a href="https://twitter.com/share" class="twitter-share-button" data-via="caimitotech">Tweet</a></td>
+						<td>
+							<div class="fb-like" data-send="false" data-width="450" data-show-faces="false"></div>
+						</td>
+					</tr>
 				</table>
 			</div>
 			<div class="span4">
@@ -27,29 +32,30 @@
 			</div>
 		</div>
 		{% include footer-de.html %}
-    </div> <!-- /container -->
+	</div> <!-- /container -->
 
 	<!-- Place this tag after the last +1 button tag. -->
 	<script type="text/javascript">
-	  window.___gcfg = {lang: 'de'};
+		window.___gcfg = { lang: 'de' };
 
-	  (function() {
-	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-	    po.src = 'https://apis.google.com/js/plusone.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-	  })();
+		(function () {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
 	</script>
-	
+
 	<!-- Twitter button -->
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	
+	<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+
 	<!-- Facebook button -->
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-  </body>
+	<script>(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+
 </html>

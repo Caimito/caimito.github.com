@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	{% include head.html %}
-  </head>
 
-  <body>
+<head>
+	{% include head-bootstrap.html %}
+</head>
+
+<body>
 	{% include menu-en.html %}
 	<div class="container content-container">
 		{{ content }}
 		{% include footer-en.html %}
-    </div> <!-- /container -->
+	</div> <!-- /container -->
 
 	<script>
 		$('.carousel').carousel({
@@ -17,5 +18,6 @@
 		})
 	</script>
 
-  </body>
+</body>
+
 </html>
