@@ -1,5 +1,5 @@
 ---
-layout: article-de
+layout: article-en
 title: Acceptance Test-Driven Development
 ---
 <h1>Acceptance Test-Driven Development</h1>
@@ -7,33 +7,51 @@ title: Acceptance Test-Driven Development
 
 <div class="row">
 	<div class="span8">
-		<p class="introduction">Wäre es nicht großartig eine Technik zu besitzen, die das Entstehen von Defekten im Programmcode komplett vermeidet?</p>
-		<p class="introduction">Das ist vermutlich die Frage, welche sich viele für die Entwicklung von Software Verantwortliche stellen. Tatsächlich ist eine solche Technik bekannt seit Programmierer Code schreiben. Wie das? Ganz einfach. Wir programmieren <strong>zuerst</strong> einen Test und führen dann den für die Produktion bestimmten Programmcode aus.</p>
+		<p class="introduction">Wäre es nicht großartig eine Technik zu besitzen, die das Entstehen von Defekten im
+			Programmcode komplett vermeidet?</p>
+		<p class="introduction">Das ist vermutlich die Frage, welche sich viele für die Entwicklung von Software
+			Verantwortliche stellen. Tatsächlich ist eine solche Technik bekannt seit Programmierer Code schreiben. Wie das?
+			Ganz einfach. Wir programmieren <strong>zuerst</strong> einen Test und führen dann den für die Produktion
+			bestimmten Programmcode aus.</p>
 	</div>
 	<div class="span4">
-		<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog</p>
+		<p class="caimito-main-color" style="font-weight: bold; margin-top: -7px; margin-bottom: -11px">Aus dem Notizblog
+		</p>
 		<dl class="posts">
-		    {% for post in site.tags.atdd-de limit:2 %}
-	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-				<dd>{{ post.date | date: "%d.%m.%Y" }}</dd> 
-		    {% endfor %}
+			{% for post in site.tags.atdd-de limit:2 %}
+			<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+			<dd>{{ post.date | date: "%d.%m.%Y" }}</dd>
+			{% endfor %}
 		</dl>
 	</div>
 </div>
 
 <figure class="article">
-	<img src="/img/pickup.png"/>
-	<figcaption><p>Bauer fährt mit seinem Sohn talwärts Richtung Puerto Plata, Dominican Republic</p>
+	<img src="/img/pickup.png" />
+	<figcaption>
+		<p>Bauer fährt mit seinem Sohn talwärts Richtung Puerto Plata, Dominican Republic</p>
 	</figcaption>
 </figure>
 
 <div class="row">
 	<div class="span6">
 		<h2 class="caimito-main-color">Ausführbare Spezifikation</h2>
-		<p>Durch eine <strong>einfache Änderung</strong> der Vorgehensweise können wir Software zielgerichteter entwickeln.</p>
-		<p>Anstelle auf herkömmliche <strong>Anforderungsdokumente</strong> zu vertrauen, die dann den Programmierern als <strong>Konstruktionsanleitungen</strong> übergeben werden, arbeitet das gesamte Team zusammen. <strong>Gemeinsam</strong> erstellen wir eine <strong>ausführbare Spezifikation</strong>. Das ist Code, welcher den für die Produktion bestimmten Programmcode <strong>überprüft</strong> und uns <strong>anleitet</strong> den richtigen Programmcode zu entwickeln. Nicht nur zeigt uns die ausführbare Spezifikation was wir schon erreicht haben, sondern sie dient auch als <strong>Frühwarnsystem</strong>, welches uns sofort alamiert, wenn bereits fertige Programmteile nicht mehr funktionieren.</p>
+		<p>Durch eine <strong>einfache Änderung</strong> der Vorgehensweise können wir Software zielgerichteter entwickeln.
+		</p>
+		<p>Anstelle auf herkömmliche <strong>Anforderungsdokumente</strong> zu vertrauen, die dann den Programmierern als
+			<strong>Konstruktionsanleitungen</strong> übergeben werden, arbeitet das gesamte Team zusammen.
+			<strong>Gemeinsam</strong> erstellen wir eine <strong>ausführbare Spezifikation</strong>. Das ist Code, welcher
+			den für die Produktion bestimmten Programmcode <strong>überprüft</strong> und uns <strong>anleitet</strong> den
+			richtigen Programmcode zu entwickeln. Nicht nur zeigt uns die ausführbare Spezifikation was wir schon erreicht
+			haben, sondern sie dient auch als <strong>Frühwarnsystem</strong>, welches uns sofort alamiert, wenn bereits
+			fertige Programmteile nicht mehr funktionieren.
+		</p>
 
-		<blockquote class="client"><span>Stephan is an outstanding technologist and coach. He is able to understand the coaching needed by a team and also update the technology stack to support the team and his coaching plan. Stephan helped us with Acceptance Test Driven Development on a number of technology stacks including web applications, Windows application and COBOL in addition to the tradition Java technology stack. I would both recommend and hire Stephan.</span>
+		<blockquote class="client"><span>Stephan is an outstanding technologist and coach. He is able to understand the
+				coaching needed by a team and also update the technology stack to support the team and his coaching plan.
+				Stephan helped us with Acceptance Test Driven Development on a number of technology stacks including web
+				applications, Windows application and COBOL in addition to the tradition Java technology stack. I would both
+				recommend and hire Stephan.</span>
 			<p>Cameron Wolff, ADL Nationwide Insurance, 2011</p>
 		</blockquote>
 
@@ -41,7 +59,7 @@ title: Acceptance Test-Driven Development
 			<p><strong>Möchten Sie mehr wissen?</strong></p>
 			<p><a href="mailto:info@caimito.net">Kontaktieren Sie uns</a> für eine persönliche Beratung!</p>
 		</div>
-		
+
 		<figure style="text-align: center">
 			<img src="/img/atdd-run.png">
 			<figcaption>Ausführbare Spezifikation</figcaption>
@@ -50,22 +68,36 @@ title: Acceptance Test-Driven Development
 	<div class="span6">
 		<h2 class="caimito-main-color">Spezifikation in Beispielen</h2>
 		<p><em>Hier ist ein Beispiel ...</em></p>
-		<p>Beispiele sind ein hervorragender Weg zu erklären was jemand sucht. In <strong>Gesprächen</strong> mit anderen Menschen benutzen wir ständig Beispiele, um aufzuzeigen was wir meinen.</p>
-		
-		<blockquote class="client"><span>As a non-developer, I found Stephan easy to communicate with and a good team player. He is able to speak in non-techie terms so we could troubleshoot together. Stephan is an asset to any team!</span>
+		<p>Beispiele sind ein hervorragender Weg zu erklären was jemand sucht. In <strong>Gesprächen</strong> mit anderen
+			Menschen benutzen wir ständig Beispiele, um aufzuzeigen was wir meinen.</p>
+
+		<blockquote class="client"><span>As a non-developer, I found Stephan easy to communicate with and a good team
+				player. He is able to speak in non-techie terms so we could troubleshoot together. Stephan is an asset to any
+				team!</span>
 			<p>Noella Natalino, Metadata Librarian, ProQuest</p>
 		</blockquote>
-		
+
 		<div class="callout">
 			<h2 class="caimito-main-color">Das Seminar</h2>
 			<p><a href="introduction-atdd.html">Einführung in ATDD</a></p>
 		</div>
 
-		<p>Spezifikation in Beispielen ist eine durch ihre Einfachheit bestechende Technik um Anforderungen an eine Software-Lösung an das technische Team zu übermitteln. Man kommt <strong>auf den Punkt</strong>, sie verbessert die <strong>Zusammenarbeit</strong> zwischen Auftraggeber/Anwender und dem Team und hilft insgesamt die <strong>richtige Lösung</strong> zu entwickeln.</p>
+		<p>Spezifikation in Beispielen ist eine durch ihre Einfachheit bestechende Technik um Anforderungen an eine
+			Software-Lösung an das technische Team zu übermitteln. Man kommt <strong>auf den Punkt</strong>, sie verbessert
+			die <strong>Zusammenarbeit</strong> zwischen Auftraggeber/Anwender und dem Team und hilft insgesamt die
+			<strong>richtige Lösung</strong> zu entwickeln.
+		</p>
 
 		<h3 class="caimito-green-color">TDD und ATDD im Vergleich</h3>
-		<p>Klassische testgetriebene Entwicklung (TDD, Test-Driven Development) und ATDD sind im Grunde genommen zwei Seiten derselben Münze. In beiden Fällen möchten wir durch Code beschreiben was ein Teil der Software tun soll bevor wir den für die Produktion bestimmten Code schreiben. Der Hauptunterschied ist, daß TDD primär für Programmierer gedacht war und ist. TDD wird benutzt, um sicherzustellen, daß wir das Gesamtsystem aus vertrauenswürdigen Bausteinen zusammensetzen können. ATDD ist eine Vorgehensweise, die das System von außen nach innen beschreibt. Weil wir es von außen beschreiben, können wir ATDD zur Zusammenarbeit mit Testern, Analytikern und Anwendern verwenden.</p>
+		<p>Klassische testgetriebene Entwicklung (TDD, Test-Driven Development) und ATDD sind im Grunde genommen zwei Seiten
+			derselben Münze. In beiden Fällen möchten wir durch Code beschreiben was ein Teil der Software tun soll bevor wir
+			den für die Produktion bestimmten Code schreiben. Der Hauptunterschied ist, daß TDD primär für Programmierer
+			gedacht war und ist. TDD wird benutzt, um sicherzustellen, daß wir das Gesamtsystem aus vertrauenswürdigen
+			Bausteinen zusammensetzen können. ATDD ist eine Vorgehensweise, die das System von außen nach innen beschreibt.
+			Weil wir es von außen beschreiben, können wir ATDD zur Zusammenarbeit mit Testern, Analytikern und Anwendern
+			verwenden.</p>
 	</div>
 </div>
 
-<p><em>Die hier gezeigten Referenzen wurden in englischer Sprache gegeben. Sie wurden nicht übersetzt, um den Inhalt nicht zu verfälschen.</em></p>
+<p><em>Die hier gezeigten Referenzen wurden in englischer Sprache gegeben. Sie wurden nicht übersetzt, um den Inhalt
+		nicht zu verfälschen.</em></p>

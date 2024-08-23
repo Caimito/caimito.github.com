@@ -1,5 +1,5 @@
 ---
-layout: article-en
+layout: article-de
 title: Acceptance Test-Driven Development
 ---
 <h1>Acceptance Test-Driven Development</h1>
@@ -7,7 +7,10 @@ title: Acceptance Test-Driven Development
 <div class="row">
 	<div class="span7">
 		<p class="introduction">
-			Acceptance Test-Driven Development is a technique to improve collaboration amongst team members in order to improve product quality. The result will be software better suited for the target purpose and audience. At the same time, the software will be easier to maintain. This reduces your exposure to risk and protects the huge investment your company is making by developing a software product.
+			Acceptance Test-Driven Development is a technique to improve collaboration amongst team members in order to
+			improve product quality. The result will be software better suited for the target purpose and audience. At the
+			same time, the software will be easier to maintain. This reduces your exposure to risk and protects the huge
+			investment your company is making by developing a software product.
 		</p>
 	</div>
 	<div class="span5">
@@ -26,12 +29,17 @@ title: Acceptance Test-Driven Development
 <div class="row-fluid">
 	<div class="span7">
 		<h2>ATDD in a nutshell</h2>
-		<p>Acceptance Test-Driven Development follows the <a href="http://en.wikipedia.org/wiki/Scientific_method" target="_blank">scientific method</a>. Development follows these simple, time-tested steps:</p>
-		
+		<p>Acceptance Test-Driven Development follows the <a href="http://en.wikipedia.org/wiki/Scientific_method"
+				target="_blank">scientific method</a>. Development follows these simple, time-tested steps:</p>
+
 		<table class="table table-striped">
 			<tr>
-				<th width="50%"><p class="caimito-green-color">Scientists</p></th>
-				<th width="50%"><p class="caimito-green-color">Software Developers</p></th>
+				<th width="50%">
+					<p class="caimito-green-color">Scientists</p>
+				</th>
+				<th width="50%">
+					<p class="caimito-green-color">Software Developers</p>
+				</th>
 			</tr>
 			<tr style="vertical-align: top">
 				<td>Define a question</td>
@@ -39,29 +47,35 @@ title: Acceptance Test-Driven Development
 			</tr>
 			<tr style="vertical-align: top">
 				<td>Gather information and resources</td>
-				<td><a onClick="showDetails('#smGatherInformation')">Learn as much as you can about the customer problem</a></td>
+				<td><a onClick="showDetails('#smGatherInformation')">Learn as much as you can about the customer problem</a>
+				</td>
 			</tr>
 			<tr style="vertical-align: top">
 				<td>Form a hypothesis</td>
-				<td><a onClick="showDetails('#smHypothesis')">Define a first set of acceptance criteria as example based scenarios (Given, When, Then)</a></td>
+				<td><a onClick="showDetails('#smHypothesis')">Define a first set of acceptance criteria as example based
+						scenarios (Given, When, Then)</a></td>
 			</tr>
 			<tr style="vertical-align: top">
 				<td>Test the hypothesis by performing an experient and collecting data in a reproducible manner</td>
-				<td><a onClick="showDetails('#smTestHypothesis')">Create software that matches the acceptance criteria and put it in front of your customers. Gather feedback, performance data, sales numbers, measure impact on your business, etc.</a></td>
+				<td><a onClick="showDetails('#smTestHypothesis')">Create software that matches the acceptance criteria and put
+						it in front of your customers. Gather feedback, performance data, sales numbers, measure impact on your
+						business, etc.</a></td>
 			</tr>
 			<tr style="vertical-align: top">
 				<td>Analyze the data</td>
-				<td><a onClick="showDetails('#smAnalyzeData')">Analyze feedback provided by your customers, runtime performance data, sales numbers, etc.</a></td>
+				<td><a onClick="showDetails('#smAnalyzeData')">Analyze feedback provided by your customers, runtime performance
+						data, sales numbers, etc.</a></td>
 			</tr>
 			<tr style="vertical-align: top">
 				<td>Interpret the results and draw conclusions that serve as a starting point for a new hypothesis</td>
-				<td><a onClick="showDetails('#smInterpret')">Interpret the results and draw conclusions that serve as a starting point for a new hypothesis</a></td>
+				<td><a onClick="showDetails('#smInterpret')">Interpret the results and draw conclusions that serve as a starting
+						point for a new hypothesis</a></td>
 			</tr>
 			<tr style="vertical-align: top">
 				<td>Repeat</td>
 				<td>Repeat</td>
 			</tr>
-		</table>	
+		</table>
 	</div>
 	<div class="span5">
 		<h3 class="caimito-main-color">Further details on ATDD</h3>
@@ -71,50 +85,57 @@ title: Acceptance Test-Driven Development
 		</div>
 		<div id="smQuestion" style="display: none">
 			<p style="font-weight: bold">What product, feature solves a customer problem?</p>
-			
+
 			<p></p>
 		</div>
 		<div id="smGatherInformation" style="display: none">
 			<p style="font-weight: bold">Learn as much as you can about the customer problem</p>
 
-			<p>Product Management creates meaningful examples of what customers would like to do with the software product. The examples at this stage don't have to follow any formal notation but if people feel comfortable enough, over time they will, they can write them as sentences following the Given/When/Then pattern.</p>
-			
-			<p>Those examples help the technical team (testers, programmers) to understand that the problem to be solved really is. They also help to convey the customer context to the technical team.</p> 
+			<p>Product Management creates meaningful examples of what customers would like to do with the software product.
+				The examples at this stage don't have to follow any formal notation but if people feel comfortable enough, over
+				time they will, they can write them as sentences following the Given/When/Then pattern.</p>
+
+			<p>Those examples help the technical team (testers, programmers) to understand that the problem to be solved
+				really is. They also help to convey the customer context to the technical team.</p>
 			<p>These examples are the starting point for acceptance criteria and tests.</p>
 		</div>
 		<div id="smHypothesis" style="display: none">
-			<p style="font-weight: bold">Define a first set of acceptance criteria as example based scenarios (Given, When, Then)</p>
+			<p style="font-weight: bold">Define a first set of acceptance criteria as example based scenarios (Given, When,
+				Then)</p>
 
 		</div>
 		<div id="smTestHypothesis" style="display: none">
-			<p style="font-weight: bold">Create software that matches the acceptance criteria and put it in front of your customers. Gather feedback, performance data, sales numbers, measure impact on your business, etc.</p>
+			<p style="font-weight: bold">Create software that matches the acceptance criteria and put it in front of your
+				customers. Gather feedback, performance data, sales numbers, measure impact on your business, etc.</p>
 
 		</div>
 		<div id="smAnalyzeData" style="display: none">
-			<p style="font-weight: bold">Analyze feedback provided by your customers, runtime performance data, sales numbers, etc..</p>
+			<p style="font-weight: bold">Analyze feedback provided by your customers, runtime performance data, sales numbers,
+				etc..</p>
 
 		</div>
 		<div id="smInterpret" style="display: none">
-			<p style="font-weight: bold">Interpret the results and draw conclusions that serve as a starting point for a new hypothesis</p>
+			<p style="font-weight: bold">Interpret the results and draw conclusions that serve as a starting point for a new
+				hypothesis</p>
 
 		</div>
 	</div>
 </div>
 
 <script type='text/javascript'>
-function showDetails(element) {
-	$('#details').hide();
-	$('#smQuestion').hide();
-	$('#smGatherInformation').hide();
-	$('#smHypothesis').hide();
-	$('#smTestHypothesis').hide();
-	$('#smAnalyzeData').hide();
-	$('#smInterpret').hide();
-	
-	$(element).show();
-	$(element).animate({ backgroundColor: "#FFFFCC" }, "slow", 
-		function() { 
-			$(this).animate({ backgroundColor: "#FFFFFF" }, "slow");
-		} );
-} ;
+	function showDetails (element) {
+		$('#details').hide();
+		$('#smQuestion').hide();
+		$('#smGatherInformation').hide();
+		$('#smHypothesis').hide();
+		$('#smTestHypothesis').hide();
+		$('#smAnalyzeData').hide();
+		$('#smInterpret').hide();
+
+		$(element).show();
+		$(element).animate({ backgroundColor: "#FFFFCC" }, "slow",
+			function () {
+				$(this).animate({ backgroundColor: "#FFFFFF" }, "slow");
+			});
+	};
 </script>

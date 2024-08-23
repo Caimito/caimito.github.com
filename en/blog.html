@@ -1,5 +1,5 @@
 ---
-layout: article-en
+layout: article-de
 title: Blog
 ---
 <h1>Blog</h1>
@@ -8,25 +8,27 @@ title: Blog
 	<div class="span8">
 		<div class="blog">
 			{% for post in site.tags.en limit:1 %}
-				{{ post.content }}
+			{{ post.content }}
 			{% endfor %}
 		</div>
 	</div>
 	<div class="span4">
 		<h2 class="caimito-main-color">Recent Posts</h2>
 		<dl class="posts">
-		    {% for post in site.tags.en limit:10 %}
-	      		<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-				<dd>{{ post.date | date: "%d %b %Y" }}</dd> 
-		    {% endfor %}
+			{% for post in site.tags.en limit:10 %}
+			<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+			<dd>{{ post.date | date: "%d %b %Y" }}</dd>
+			{% endfor %}
 		</dl>
 		<p>Older posts can be found in the <a href="archiv.html">Archive</a>.</p>
 
 		<h2 class="caimito-main-color">Mailing List</h2>
 		<p>Join our mailing list to be notified when a new item is added to the knowledge base.</p>
 		<form method="post" action="http://ymlp.com/subscribe.php?id=gjjhhmugmgh" target="_blank">
-		<input type="text" name="YMP0" size="30"/> <input type="submit" value="Add Me!" class="btn btn-primary" style="vertical-align: top"/>
+			<input type="text" name="YMP0" size="30" /> <input type="submit" value="Add Me!" class="btn btn-primary"
+				style="vertical-align: top" />
 		</form>
-		<p>Each email contains a link to unsubscribe from the list and of course we don't share your email address with third parties.</p>
+		<p>Each email contains a link to unsubscribe from the list and of course we don't share your email address with
+			third parties.</p>
 	</div>
 </div>
