@@ -1,5 +1,5 @@
 ---
-layout: article-de
+layout: main-en
 title: Data Protection Policy
 ---
 # Data Protection Policy
@@ -14,11 +14,15 @@ Contact details: Caimito Agile Life S.L., Apartado de Correos #30, 14440 Villanu
 
 ### Our policy covers
 
-- [We value your privacy](#we-value-your-privacy)
-- [How we collect information](#how-we-collect-information)
-- [What information we keep](#what-information-we-keep)
-- [What we use your information for](#what-we-use-your-information-for)
-- [Who is responsible for your information at our company](#who-is-responsible-for-your-information-at-our-company)
+- [Data Protection Policy](#data-protection-policy)
+  - [Introduction](#introduction)
+    - [Our policy covers](#our-policy-covers)
+  - [We value your privacy](#we-value-your-privacy)
+  - [How we collect information and what information we keep](#how-we-collect-information-and-what-information-we-keep)
+  - [Where we store your information](#where-we-store-your-information)
+  - [What we use your information for](#what-we-use-your-information-for)
+  - [Who is responsible for your information at our company](#who-is-responsible-for-your-information-at-our-company)
+  - [How to complain](#how-to-complain)
 
 ## We value your privacy
 We are not interested in your data. Neither you or your data is our product. If you decide to buy a product or service from us, we appreciate your business. We have no reason to sell any information about you or disclose it to anybody except when required by law. That's why we always ask you for the bare minimum of information necessary to perform the transaction.

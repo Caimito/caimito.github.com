@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+H1 {
+  color: var(--primary-color);
+}
+
+H2 {
+  color: var(--secondary-color);
+}
+
+DIV.container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+DIV.introduction {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  width: 70%;
+}
+
+DIV.overview {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+DIV.overview > SECTION {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+SECTION > h2 {
+  margin-top: 0;
+}

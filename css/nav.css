@@ -1,0 +1,37 @@
+NAV {
+  background-color: #EEEEEE;
+}
+
+NAV UL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+NAV ul li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 1.3em;
+}
+
+NAV ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+NAV ul li a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+FOOTER {
+  padding: 1em;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: space-evenly;
+}
