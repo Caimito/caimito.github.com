@@ -43,3 +43,12 @@ DIV.overview > SECTION {
 SECTION > h2 {
   margin-top: 0;
 }
+
+BUTTON {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
