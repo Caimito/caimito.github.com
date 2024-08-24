@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 H1 {
@@ -16,6 +17,7 @@ H2 {
 DIV.container {
   margin-left: 2%;
   margin-right: 2%;
+  flex: 1;
 }
 
 DIV.introduction {
