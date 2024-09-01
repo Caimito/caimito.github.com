@@ -6,7 +6,7 @@ title: Custom Software Development
 
 <div class="introduction">
 	<img src="https://gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120&d=robohash&r=x" class="avatar" />
-  <p>You have a great idea for a software product but don't have the technical team to actually develop it and bring it to market? We can help you with that.</p>
+  <p>You have a great idea for a software product but don't have the technical team to actually develop it and bring it to market? Stephan Schwab and associates can help you with that.</p>
 
   <p>You have a great product management team and are good at marketing too but lack the staff to set up another software development team for a new product. We can help you with that.</p>
 
