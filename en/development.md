@@ -3,18 +3,27 @@ layout: main-en
 title: Custom Software Development
 ---
 # Custom Software Development
-You have a great idea for a software product but don't have the technical team to actually develop it and bring it to market? We can help you with that.
 
-You have a great product management team and are good at marketing too but lack the staff to set up another software development team for a new product. We can help you with that.
+<div class="introduction">
+	<img src="https://gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120&d=robohash&r=x" class="avatar" />
+  <p>You have a great idea for a software product but don't have the technical team to actually develop it and bring it to market? We can help you with that.</p>
 
-Our custom software development service is designed to either augment your existing team or set up a new team altogether. Our other practices like Technical Consultancy and Technical Recruiting contribute to this.
+  <p>You have a great product management team and are good at marketing too but lack the staff to set up another software development team for a new product. We can help you with that.</p>
+
+  <p>Our custom software development service is designed to either augment your existing team or set up a new team altogether. Our other practices like Technical Consultancy and Technical Recruiting contribute to this.</p>
+</div>
+
+{% include_relative contact.html %}
+
+## Our Approach
+Every software development project is unique. In general, we do follow the approach outlined below. We aim to quickly reap benefits of the investment and prioritize for ease of change and easily replaceable parts. The world around us is not standing still and one who adapts more rapidly will be fitter for the future than others.
 
 <div class=sequence>
   <div class="step">
-    Discovery Call
+    Discovery Meeting
   </div>
   <div>
-    <p>Your team and some of us will meet to get to know each other and find out if we are a good match for a longer-term business relationship.</p>
+    <p>Your team and some of us will meet in order to get to know each other and find out if we are a good match for a longer-term business relationship.</p>
   </div>
 
   <div class="step">
@@ -61,6 +70,6 @@ Our custom software development service is designed to either augment your exist
   <div>
     <p>Once the foundation for smooth continuous development has been put in place we develop feature after feature and ship early and often.</p>
   </div>
-
 </div>
 
+<p>&nbsp;</p>

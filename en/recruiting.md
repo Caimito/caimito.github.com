@@ -3,7 +3,11 @@ layout: main-en
 title: Technical Recruiting
 ---
 # Technical Recruiting
-Finding truly the right people for software development teams is very difficult. The experience of software developers cannot be evaluated the same way as it works in other professions. Seniority is not indicated by using the same techniques, tools, frameworks, programming languages for many years. In fact the longer a developer does the same, the less experience the person actually is.
+<div class="introduction">
+  <img src="https://gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120&d=robohash&r=x" class="avatar" />
+  <p>Finding truly the right people for software development teams is very difficult. Software developers' experience cannot be evaluated in the same manner as other professions. Seniority is not indicated by using the same techniques, tools, frameworks, programming languages for many years. In fact the longer a developer does the same, the less experience the person actually is.</p>
+</div>
+{% include_relative contact.html %}
 
 ## Hiring is Broken
 The big staffing agencies ironically filter out the most suitable and capable candidates by using a process that will surface candidates who do the same over many years and are usually inflexible and in consequence suffer from learning disabilities. Software development is a very dynamic domain and what in other professions would clearly show experience does not in software development and can even be a red flag.
