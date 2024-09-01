@@ -54,3 +54,34 @@ BUTTON {
   border-radius: 5px;
   cursor: pointer;
 }
+
+DIV.sequence {
+  display: grid;
+  grid-template-columns: 15em auto;
+  gap: 3em;
+}
+
+DIV.step {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+DIV.info-container {
+  display: flex;
+  gap: 2em;
+  justify-content: space-evenly;
+}
+
+DIV.info-container > DIV, DIV.info-block {
+  background-color: #F5E6F0; 
+  padding: 1.5em;
+  flex: 1;
+  border-radius: 8px;
+}
+
+DIV.info-container > DIV > H2, DIV.info-block > H2 {
+  margin-top: 0;
+}

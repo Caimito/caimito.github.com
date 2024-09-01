@@ -10,22 +10,6 @@ The big staffing agencies ironically filter out the most suitable and capable ca
 
 ## Steps to Effective Technical Recruiting
 
-<style>
-DIV.sequence {
-  display: grid;
-  grid-template-columns: 15em auto;
-  gap: 3em;
-}
-
-DIV.step {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  font-weight: bold;
-}
-</style>
-
 <div class=sequence>
   <div class="step">
     Define Requirements
