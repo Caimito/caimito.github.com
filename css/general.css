@@ -85,3 +85,27 @@ DIV.info-container > DIV, DIV.info-block {
 DIV.info-container > DIV > H2, DIV.info-block > H2 {
   margin-top: 0;
 }
+
+DIV.blog {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+}
+
+DIV.blog > DIV.posts {
+  flex: 1;
+}
+
+DIV.blog > DIV.posts {
+  flex: 0 0 30%;
+}
+
+DIV.posts > UL, UL.posts {
+  list-style-type: none;
+  padding: 0;
+}
+
+DIV.posts > UL > LI, UL.posts > LI {
+  font-size: smaller;
+  margin-bottom: 0.5em;
+}

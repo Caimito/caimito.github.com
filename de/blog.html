@@ -1,35 +1,22 @@
 ---
-layout: article-de
+layout: main-de
 title: Notizblog
 ---
-<h1>Notizblog</h1>
-
-<div class="row">
-	<div class="span8">
-		<div class="blog">
-			{% for post in site.tags.de limit:1 %}
-			<h1>{{ post.title }}</h1>
-			{{ post.content }}
-			{% endfor %}
-		</div>
+<div class="blog">
+	<div>
+		{% for post in site.tags.de limit:1 %}
+		<h1>{{ post.title }}</h1>
+		{{ post.content }}
+		{% endfor %}
 	</div>
-	<div class="span4">
-		<h2 class="caimito-main-color">Aktuelle Beiträge</h2>
-		<dl class="posts">
-			{% for post in site.tags.de limit:10 %}
-			<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-			<dd>{{ post.date | date: "%d.%m.%Y" }}</dd>
-			{% endfor %}
-		</dl>
-		<p>Ältere Beiträge sind im <a href="archiv.html">Archiv</a> verfügbar.</p>
 
-		<h2 class="caimito-main-color">eMail-Verteiler</h2>
-		<p>Tragen Sie sich in unseren eMail-Verteiler ein, um über neue Einträge im Notizblog informiert zu werden.</p>
-		<form method="post" action="http://ymlp.com/subscribe.php?id=gjjhhmugmgw" target="_blank">
-			<input type="text" name="YMP0" size="30" /> <input type="submit" value="Add Me!" class="btn btn-primary"
-				style="vertical-align: top" />
-		</form>
-		<p>Jede eMail gibt Ihnen die Möglichkeit sich aus dem Verteiler auszutragen und selbstverständlich geben wir Ihre
-			eMail-Adresse nicht an Dritte weiter.</p>
+	<div class="posts">
+		<h2>Weitere Beiträge</h2>
+		<ul>
+			{% for post in site.tags.de limit:10 %}
+			<li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d.%m.%Y" }})</li>
+			{% endfor %}
+		</ul>
+		<p>Ältere Beiträge sind im <a href="archiv.html">Archiv</a> verfügbar.</p>
 	</div>
 </div>
