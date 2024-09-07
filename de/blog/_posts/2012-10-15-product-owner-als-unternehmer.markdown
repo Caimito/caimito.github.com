@@ -17,7 +17,7 @@ Unternehmen werden von Menschen gegründet, die eine Idee für ein Produkt oder 
 
 Ganz besonders zeichnet diese Menschen aus, daß sie sehr genau wissen was sie wollen. Sie mögen nicht in der Lage sein dies klar und für andere verständlich auszudrücken. Sie mögen nicht in der Lage sein das Produkt oder die Dienstleistung selbst zu erschaffen oder zumindest nicht im vollen Umfang. Doch sie können in der Regel, gibt man ihnen die Gelegenheit, andere, die über die notwendigen Fähigkeiten verfügen, motivieren und für ihre Idee so begeistern, daß die Vision durch die resultierende Zusammenarbeit Realität wird.
 
-[Scrum](kbase/scrum.html) definiert die Rolle des Product Owners. Im [Scrum Guide](http://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum%20Guide%20-%20DE.pdf) heißt es dazu:
+[Scrum](/de/kbase/scrum.html) definiert die Rolle des Product Owners. Im [Scrum Guide](http://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum%20Guide%20-%20DE.pdf) heißt es dazu:
 
 > Der Product Owner ist für die Maximierung des Wertes des Produkts und der Arbeit, die das Entwicklungs-Team verrichtet, verantwortlich.
 
