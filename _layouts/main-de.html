@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
-	{% include head-bootstrap.html %}
+	{% include head.html %}
 </head>
-
 
 <body>
 	{% include menu-de.html %}
-	<div class="container content-container">
+	<div class="container">
 		{{ content }}
-		{% include footer-de.html %}
-	</div> <!-- /container -->
-
-	<script>
-		$('.carousel').carousel({
-			interval: 12000
-		})
-	</script>
-
+	</div>
+	{% include footer-de.html %}
 </body>
 
 </html>
