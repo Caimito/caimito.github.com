@@ -109,3 +109,12 @@ DIV.posts > UL > LI, UL.posts > LI {
   font-size: smaller;
   margin-bottom: 0.5em;
 }
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
