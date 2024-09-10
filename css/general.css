@@ -118,3 +118,18 @@ dd {
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
+
+DIV.two-columns {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 2em;
+}
+
+div.reference-projects > dl {
+  font-size: smaller;
+  padding-right: 1em;
+}
+
+div.reference-projects dd {
+  margin-left: 0;
+}
