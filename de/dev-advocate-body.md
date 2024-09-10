@@ -1,7 +1,3 @@
----
-layout: main-de
-title:
----
 # Senior Developer Advocate
 Der Senior Developer Advocate ist ein erfahrener Software-Entwickler, welcher zeitweise in Ihrem Team mitarbeitet und dabei ein besonderes Augenmerk auf die Verbesserung der technischen und organisatorischen Fähigkeiten der Team-Mitglieder legt. Der Senior Developer Advocate arbeitet aktiv an der vom Team bereitgestellten Software-Lösung mit und ist daher auch ein weiterer Entwickler.
 
