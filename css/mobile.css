@@ -1,0 +1,50 @@
+@media screen and (max-width: 500px) {
+
+  body {
+    font-size: smaller;
+  }
+
+  #homeLink > IMG {
+    width: 100px;
+  }
+
+  NAV ul li {
+    padding: 5px 5px;
+    font-size: 1em;
+    white-space: unset;
+  }
+  
+  DIV.introduction {
+    width: 100%;
+  }
+  
+  DIV.overview {
+    padding: 0;
+    padding-bottom: 1em;
+  }
+  
+  DIV.two-columns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.reference-projects > dl {
+    font-size: unset;
+  }
+  
+  DIV.sequence {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  DIV.info-container {
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  FIGURE IMG {
+    width: 100%;
+  }
+
+}
