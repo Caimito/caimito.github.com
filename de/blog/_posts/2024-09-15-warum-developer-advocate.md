@@ -10,7 +10,7 @@ tags:
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
 
-<a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" class="avatar"/></a>
+<a href="/de/contact-sns.html"><img src="https://gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120&d=robohash&r=x" class="avatar" /></a>
 Eigene Softwareentwicklung ist komplex und teuer. Selbst wenn man Mitarbeiter mit relativ geringen Gehältern dafür nutzen kann so sind die Gesamtkosten immer noch sehr hoch. Ein kleines Team aus lediglich 5 Personen mit eher geringen Gehaltsansprüchen kostet z.B. 400.000 € für ein Jahr.
 
 
