@@ -11,7 +11,7 @@ tags:
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
 
-<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" align="left" style="margin-right: 15px"/></a></p>
+<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" class="avatar"/></a></p>
 
 Unternehmen werden von Menschen gegründet, die eine Idee für ein Produkt oder eine Dienstleistung haben. Ihnen ist aufgefallen, wie man etwas besser machen kann. Ihnen ist ein Bedarf aufgefallen. Oder sie haben Gefallen an irgendeiner Tätigkeit gefunden und möchten diese anderen ermöglichen. Egal was diese Menschen anbieten möchten, immer haben sie eine Vision und eine intrinsische Motivation, die sie antreibt.
 

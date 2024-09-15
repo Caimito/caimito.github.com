@@ -47,4 +47,13 @@
     width: 100%;
   }
 
+  DIV.blog {
+    flex-direction: column;
+  }
+
+  .avatar {
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+  }
+  
 }

@@ -12,7 +12,7 @@ tags:
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
 
-<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" align="left" style="margin-right: 15px"/></a></p>
+<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" class="avatar"/></a></p>
 
 Sehr oft erlebe ich, daß Teams "user stories" aufgrund einer Lösungsbeschreibung, die von jemandem außerhalb des Teams erstellt wurde, schreiben. Solche "user stories" beschreiben was zu programmieren ist. Es ist dabei relativ egal, ob diese dann in der Form "Als ... möchte ich ... so daß ..." oder als "XY-Bericht als PDF anzeigen" daherkommen. Auch schon sehr häufig gesehen habe ich die Variante einer "user story", die als ein mehrseitiges Dokument mit Vorgaben zu den Bedienelementen einschließlich RGB-Farbkodierung daherkam.
 

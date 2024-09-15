@@ -10,7 +10,7 @@ tags:
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
 
-<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" align="left" style="margin-right: 15px"/></a></p>
+<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" class="avatar"/></a></p>
 
 Wenn immer man irgendeine Tätigkeit ausübt möchte man wissen ob man Erfolg erzielt. Wenn die Tätigkeit Auswirkungen auf andere Menschen hat, so wäre es sogar besonders hilfreich sehen zu können, ob die Auswirkungen positiv oder negativ sind. Im Zweifelsfall werden die Betroffenen bei negativen Auswirkungen sich schon melden - sie könnten sich z.B. dem Einflußbereich der von einem ausgeübten Tätigkeit entziehen - doch nicht immer sind die Wirkungen unmittelbar schwerwiegend genug, um diesen, gewissermaßen letzten, Schritt gehen zu wollen. Oft sind die Wirkungen schleichender Natur. Man stellt erst nach langer Zeit fest, daß sich da etwas verändert hat - halt dann, wenn es wirklich nicht mehr zu übersehen ist.
 
@@ -20,7 +20,10 @@ Solch eine Methode existiert.
 
 Durch fortlaufende Messungen der sich im Fluß befindlichen Arbeit und Darstellung in einem Diagramm aus überlagerten Flächen kann man ablesen welche Wirkungen die gestalterische Arbeit des Managements - oder auch Entscheidungen innerhalb eines Teams oder einer Arbeitsgruppe - hat. Hier ein Beispiel:
 
-![Cumulative Flow Diagram](/de/img/cfd-comments.png)
+<figure>
+  <img src="/de/img/cfd-comments.png" alt="Cumulative Flow Diagram" />
+  <figcaption>Cumulative Flow Diagram</figcaption>
+</figure>
 
 __Was wird gemessen und was nicht__
 

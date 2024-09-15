@@ -11,7 +11,7 @@ tags:
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
 
-<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" align="left" style="margin-right: 15px"/></a></p>
+<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" class="avatar"/></a></p>
 
 Acceptance Test Driven Development (ATDD) ist __keine__ Technik oder Vorgehensweise für Programmierer __allein__. Es ist eine Vorgehensweise für das __gesamte__ Team. Für ein Team dessen Mitglieder aus verschiedenen Funktionsbereichen kommen und die alle __gemeinsam__ an einem Produkt arbeiten.
 

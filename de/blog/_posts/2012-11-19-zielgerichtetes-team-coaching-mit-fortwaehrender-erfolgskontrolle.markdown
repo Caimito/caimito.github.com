@@ -11,7 +11,7 @@ tags:
 
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
 
-<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" align="left" style="margin-right: 15px"/></a></p>
+<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" class="avatar"/></a></p>
 
 Kein Mensch möchte unsinnig Geld ausgeben oder in Dinge investieren, die keinen Nutzen bringen. Gute Unternehmer wollen __vorher__ wissen wofür sie bezahlen.
 

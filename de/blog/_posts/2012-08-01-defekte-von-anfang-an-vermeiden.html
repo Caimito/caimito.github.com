@@ -1,7 +1,7 @@
 ---
 layout: blog-de
 title: Defekte von Anfang an vermeiden
-tags: 
+tags:
 - de
 - sns-de
 - atdd-de
@@ -9,25 +9,47 @@ tags:
 <h2>Und es gibt es doch. Software, die genau tut was man von ihr erwartet</h2>
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>Von Stephan Schwab</em></p>
 
-<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png" align="left" style="margin-right: 15px"/></a> Erlauben Sie mir eine ketzerische Behauptung aufzustellen. Warum beschreiben wir in der Softwareentwicklung nicht zuerst das Problem bevor wir versuchen es zu lösen?</p>
-<p>"Das geht nicht!" werden Sie vermutlich entgegnen. "Schließlich müssen wir erstmal das Programm schreiben, damit wir es testen können."</p>
-<p>Doch was passiert wenn dann beim Testen Defekte entdeckt werden? Vermutlich werden Sie sagen "Unsere Tester erfassen die in einer Liste und die Programmierer müssen das dann schnellstmöglich nachbessern." Das hört sich gut an. Aber was bedeutet es für die Programmierer? Was machen die denn während die Tester Fehler suchen?</p>
+<p><a href="/de/contact-sns.html"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4.png"
+      class="avatar" /></a> Erlauben Sie mir eine ketzerische Behauptung aufzustellen. Warum beschreiben wir in der
+  Softwareentwicklung nicht zuerst das Problem bevor wir versuchen es zu lösen?</p>
+<p>"Das geht nicht!" werden Sie vermutlich entgegnen. "Schließlich müssen wir erstmal das Programm schreiben, damit wir
+  es testen können."</p>
+<p>Doch was passiert wenn dann beim Testen Defekte entdeckt werden? Vermutlich werden Sie sagen "Unsere Tester erfassen
+  die in einer Liste und die Programmierer müssen das dann schnellstmöglich nachbessern." Das hört sich gut an. Aber was
+  bedeutet es für die Programmierer? Was machen die denn während die Tester Fehler suchen?</p>
 
 <h3>Testen am Ende verlängert das Projekt</h3>
-<p>Die Programmierer arbeiten natürlich weiter und setzen neue Anforderungen in Software um. Wenn dann von den Testern nach einigen Tagen oder gar erst einigen Wochen die Liste mit den Defekten kommt, sind die schon längst ganz woanders. Statt direkt den Fehler beseitigen zu können, müssen die Programmierer erstmal mühsam herausfinden, ob der Fehler wirklich noch immer existiert. Am Ende kann es dann sogar sein, daß der Programmcode mit dem Fehler gar nicht mehr existiert.</p>
+<p>Die Programmierer arbeiten natürlich weiter und setzen neue Anforderungen in Software um. Wenn dann von den Testern
+  nach einigen Tagen oder gar erst einigen Wochen die Liste mit den Defekten kommt, sind die schon längst ganz woanders.
+  Statt direkt den Fehler beseitigen zu können, müssen die Programmierer erstmal mühsam herausfinden, ob der Fehler
+  wirklich noch immer existiert. Am Ende kann es dann sogar sein, daß der Programmcode mit dem Fehler gar nicht mehr
+  existiert.</p>
 
 <h3>Also testen wir am Anfang</h3>
-<p>Sie wollen wissen wie das gehen soll. Das geht natürlich nicht. Aber wir können etwas anderes machen. Wir testen überhaupt nicht!</p>
+<p>Sie wollen wissen wie das gehen soll. Das geht natürlich nicht. Aber wir können etwas anderes machen. Wir testen
+  überhaupt nicht!</p>
 <p>Stattdessen beschreiben wir was das Programm machen soll und solange es nicht das tut ist es auch nicht fertig.</p>
-<p><a href="/de/atdd.html">Acceptance Test-Driven Development</a> ist eine Technik, die ganz ähnlich der testgetriebenen Entwicklung, die Möglichkeit bietet vor dem Programmieren festzulegen was der Code tun soll. Das geschieht in Form einer ausführbaren Spezifikation, die man leicht und schnell zum Überprüfen der Software während der Entwicklung benutzen kann. Und da nur die Auftraggeber oder deren Vertreter wirklich sagen können was sie wirklich wollen, erwarten wir nicht, daß diese ein Testprogramm schreiben. Wir lassen Sie auf gut Deutsch in Beispielen beschreiben wie sich das Programm verhalten soll. Und dann automatisieren wir das, damit wir es jederzeit ausführen können.</p>
+<p><a href="/de/atdd.html">Acceptance Test-Driven Development</a> ist eine Technik, die ganz ähnlich der testgetriebenen
+  Entwicklung, die Möglichkeit bietet vor dem Programmieren festzulegen was der Code tun soll. Das geschieht in Form
+  einer ausführbaren Spezifikation, die man leicht und schnell zum Überprüfen der Software während der Entwicklung
+  benutzen kann. Und da nur die Auftraggeber oder deren Vertreter wirklich sagen können was sie wirklich wollen,
+  erwarten wir nicht, daß diese ein Testprogramm schreiben. Wir lassen Sie auf gut Deutsch in Beispielen beschreiben wie
+  sich das Programm verhalten soll. Und dann automatisieren wir das, damit wir es jederzeit ausführen können.</p>
 
 <h3>Solange es nicht dem Beispiel genügt, ist es nicht fertig</h3>
-<p>So eine ausführbare Spezifikation hat noch einen anderen Vorteil. Wenn wir jeweils anhand der Beispiele Implementierungen liefern, dann wissen wir mit jedem vollständig umgesetzten Beispiel wo wir sind und was noch fehlt. Und es gibt keine Überraschungen, weil wir ja nicht voreilig "fertig!" sagen können.</p>
+<p>So eine ausführbare Spezifikation hat noch einen anderen Vorteil. Wenn wir jeweils anhand der Beispiele
+  Implementierungen liefern, dann wissen wir mit jedem vollständig umgesetzten Beispiel wo wir sind und was noch fehlt.
+  Und es gibt keine Überraschungen, weil wir ja nicht voreilig "fertig!" sagen können.</p>
 
 <h3>Fertig und einsatzbereit</h3>
-<p>Ein Team, welches <a href="/de/atdd.html">Acceptance Test-Driven Development</a> praktiziert, liefert Software, die funktionell einwandfrei ist und nach Ende der Programmierarbeit keiner weiteren funktionalen Tests mehr bedarf.</p>
+<p>Ein Team, welches <a href="/de/atdd.html">Acceptance Test-Driven Development</a> praktiziert, liefert Software, die
+  funktionell einwandfrei ist und nach Ende der Programmierarbeit keiner weiteren funktionalen Tests mehr bedarf.</p>
 
 <h3>Auf die Beispiele kommt es an</h3>
-<p>"Hört sich ja toll an, aber ..." werden Sie nun wieder einwenden und ich stimme Ihnen zu. Es gibt da durchaus ein paar Schwierigkeiten. Diese Art zu entwickeln funktioniert nur wirklich gut, wenn man gut im Erstellen der richtigen Beispiele ist. Da braucht es Leute, die das können. Doch wie alle Dinge im Leben kann man sowas lernen und nach einiger Übung fällt es leichter. Ich habe mit <a href="/de/acd.html">Activity-Centered Design</a> auch eine weitere Technik anzubieten, die beim Entdecken der richtigen Beispiele hilft.</p>
-	
-<br clear="all"/>
+<p>"Hört sich ja toll an, aber ..." werden Sie nun wieder einwenden und ich stimme Ihnen zu. Es gibt da durchaus ein
+  paar Schwierigkeiten. Diese Art zu entwickeln funktioniert nur wirklich gut, wenn man gut im Erstellen der richtigen
+  Beispiele ist. Da braucht es Leute, die das können. Doch wie alle Dinge im Leben kann man sowas lernen und nach
+  einiger Übung fällt es leichter. Ich habe mit <a href="/de/acd.html">Activity-Centered Design</a> auch eine weitere
+  Technik anzubieten, die beim Entdecken der richtigen Beispiele hilft.</p>
+
+<br clear="all" />
