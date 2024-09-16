@@ -2,76 +2,17 @@
 <html lang="en">
 
 <head>
-	{% include head-bootstrap.html %}
+	{% include head.html %}
 </head>
 
 <body>
-	<div id="fb-root"></div>
 	{% include menu-en.html %}
-	<div class="container content-container">
-		<div class="row">
-			<div class="span8 blog">
-				{{ content }}
-				<hr />
-				<p style="font-weight: bold">Care to share? These buttons make it easy for you.</p>
-				<!-- Place this tag where you want the +1 button to render. -->
-				<table>
-					<tr>
-						<td>
-							<div class="g-plusone"></div>
-						</td>
-						<td><a href="https://twitter.com/share" class="twitter-share-button" data-via="caimitotech">Tweet</a></td>
-						<td>
-							<div class="fb-like" data-send="false" data-width="450" data-show-faces="false"></div>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<div class="span4">
-				<h2 class="caimito-main-color">Training</h2>
-				<p>Uplift technical skills in your organization. Talk to us about <strong>Acceptance Test-Driven
-						Development</strong>, <strong>Test-Driven Development</strong>, <strong>Specification by Example</strong>
-					and other effective techniques to <strong>prevent defects</strong> in your products from the start.</p>
-				<h2 class="caimito-main-color">Coaching</h2>
-				<p>Provide guidance to your associates to reach their full potential so that your organization benefits from
-					smarter and more agile collaborators. We coach on agile practices, including Scrum and Kanban, using a
-					humanistic whole team approach.</p>
-				<h2 class="caimito-main-color">Learning Organization</h2>
-				<p>Due to the rapidly changing market environment organizations constantly face new challenges. Learning
-					organizations are able to reinvent themselves by improving and adapting. We can help you to re-learn learning
-					as an organization so that not only you survive but also know how to delight your customers.</p>
-				<h2 class="caimito-main-color">Leadership, Management</h2>
-				<p>Management from the Industrial Age separated thinking from doing. In the Information Age knowledge work is
-					the key ingredient for success. Learn how to replace industrial management by true leadership to build a
-					sustainable organization based on knowledge.</p>
-				<h2 class="caimito-main-color">Contact</h2>
-				<p>Contact us at <a href="mailto:info@caimito.net">info@caimito.net</a> for a personal consultation.</p>
-				<p>We speak German, English, and Spanish. Our services are available world-wide.</p>
-			</div>
-		</div>
-		{% include footer-en.html %}
-	</div> <!-- /container -->
-
-	<!-- Place this tag after the last +1 button tag. -->
-	<script type="text/javascript">
-		(function () {
-			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-			po.src = 'https://apis.google.com/js/plusone.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-		})();
-	</script>
-
-	<!-- Twitter button -->
-	<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
-
-	<!-- Facebook button -->
-	<script>(function (d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		{{ content }}
+	</div>
+	{% include footer-en.html %}
+	</div>
 </body>
 
 </html>
