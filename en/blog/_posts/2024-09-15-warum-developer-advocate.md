@@ -11,7 +11,7 @@ tags:
 <p>{{ page.date | date: "%d.%m.%Y" }}, <em>By Stephan Schwab</em></p>
 
 <a href="/en/contact-sns.html"><img src="https://gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120&d=robohash&r=x" class="avatar" /></a>
-In-house software development is complex and expensive. Even if you can utilize employees with relatively low salaries, the overall costs are still very high. For example, a small team of just 5 people with relatively modest salary expectations can cost around $400,000 per year.
+In-house software development is complex and expensive. Even if you can utilize employees with relatively low salaries, the overall costs are still very high. For example, in Europe a small team of just 5 people with relatively modest salary expectations can cost around $400,000 per year. In North America that number would be significantly higher. Depending on location it might be something like $1.5 million annually.
 
 When demand increases and you need to expand the team, you’ll likely look for agencies or freelance IT specialists. At the lower end, they may charge a rate of around $90 per hour. With the agency's commission, this rate often rises to about $110 per hour. If used over an entire year, this can add $200,000 or more to your costs, depending on the extent of the engagement.
 
@@ -50,7 +50,7 @@ Although an essential part of such an engagement is improving the skills of exis
 : Based on the findings from the assessment, we jointly develop a coaching plan that, similar to a Story Map, outlines possible actions as well as their timing and context. This coaching plan becomes our shared roadmap and is also used for success tracking.
 
 **Practical Work**
-: 60% to 70% of the practical work of a Senior Developer Advocate involves actively contributing to the development of the software solution the team is working on. Therefore, this role is clearly that of a team member and developer, not just a trainer.
+: 60% to 70% of the practical work of a Senior Developer Advocate involves actively contributing to the development of the software solution the team is working on. Therefore, this role is clearly that of a team member and developer, not just a trainer. Most of the knowledge transfer and training is done by pairing. That means the Senior Developer Advocate supports always another team member directly.
 
 : The focus on practical work as a developer helps gain the acceptance of the person and the proposed measures by the other team members.
 
