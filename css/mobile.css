@@ -21,7 +21,9 @@
   DIV.overview {
     padding: 0;
     padding-bottom: 1em;
-  }
+    display: flex;
+    flex-direction: column;
+  } 
   
   DIV.two-columns {
     display: flex;
@@ -54,6 +56,10 @@
   .avatar {
     margin-right: 1em;
     margin-bottom: 0.5em;
+  }
+
+  BUTTON, A.button {
+    font-size: unset;
   }
   
 }

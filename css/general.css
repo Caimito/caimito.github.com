@@ -30,7 +30,7 @@ DIV.introduction {
 DIV.overview {
   margin-top: 2em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 50% 50%;
   gap: 20px;
   padding: 20px;
 }
@@ -44,15 +44,6 @@ DIV.overview > SECTION {
 
 SECTION > h2 {
   margin-top: 0;
-}
-
-BUTTON {
-  background-color: var(--secondary-color);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 DIV.sequence {
@@ -125,6 +116,12 @@ DIV.two-columns {
   gap: 2em;
 }
 
+div.reference-projects {
+  border-left: thin solid grey;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 div.reference-projects > dl {
   font-size: smaller;
   padding-right: 1em;
@@ -132,4 +129,19 @@ div.reference-projects > dl {
 
 div.reference-projects dd {
   margin-left: 0;
+}
+
+BUTTON, A.button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: larger;
+}
+
+BUTTON.secondary, A.button.secondary {
+  background-color: var(--secondary-color);
 }
