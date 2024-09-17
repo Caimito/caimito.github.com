@@ -34,3 +34,5 @@ As it is impossible to perform manual testing of the whole system, we need to ha
 
 ## Is One Big Central CI Server Required?
 In 2024, developer workstations or laptops are so powerful that they frequently outperform machines used as servers. While in the past Continuous Integration was associated with having a central CI server running some special software to perform integration builds, for example, Jenkins or GitHub
+
+{% include blog-contact-en.html %}
