@@ -14,6 +14,10 @@ H2 {
   color: var(--secondary-color);
 }
 
+H1, H2, H3, H4, H5, H6 {
+  clear: both;
+}
+
 DIV.container {
   margin-left: 2%;
   margin-right: 2%;
@@ -97,7 +101,6 @@ DIV.posts > UL, UL.posts {
 }
 
 DIV.posts > UL > LI, UL.posts > LI {
-  font-size: smaller;
   margin-bottom: 0.5em;
 }
 
@@ -116,14 +119,15 @@ DIV.two-columns {
   gap: 2em;
 }
 
-div.reference-projects {
+div.sidebar {
   border-left: thin solid grey;
+  padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
+  font-size: smaller;
 }
 
 div.reference-projects > dl {
-  font-size: smaller;
   padding-right: 1em;
 }
 

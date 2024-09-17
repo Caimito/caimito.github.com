@@ -30,6 +30,10 @@
     flex-direction: column;
   }
 
+  div.sidebar {
+    display: none;
+  }
+
   div.reference-projects > dl {
     font-size: unset;
   }

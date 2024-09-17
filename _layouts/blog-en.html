@@ -8,8 +8,15 @@
 <body>
 	{% include menu-en.html %}
 	<div class="container">
-		<h1>{{ page.title }}</h1>
-		{{ content }}
+		<div class="two-columns">
+			<div>
+				<h1>{{ page.title }}</h1>
+				{{ content }}
+			</div>
+			<div class="sidebar">
+				{% include sidebar-en.html %}
+			</div>
+		</div>
 	</div>
 	{% include footer-en.html %}
 	</div>

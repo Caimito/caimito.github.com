@@ -7,7 +7,7 @@ title:
     {% capture left_column %}{% include_relative dev-advocate-body.md %}{% endcapture %}
     {{ left_column | markdownify }}
   </div>
-  <div class="reference-projects">
+  <div class="sidebar reference-projects">
     <h2>Reports from Practice</h2>
     <ul class="posts">
       {% for post in site.tags.dev-advocate-en limit:10 %}
