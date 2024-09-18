@@ -65,6 +65,7 @@ DIV.step {
 }
 
 DIV.info-container {
+  margin: 3em;
   display: flex;
   gap: 2em;
   justify-content: space-evenly;
@@ -170,8 +171,8 @@ figure {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 figure img {
