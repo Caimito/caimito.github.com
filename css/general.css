@@ -165,3 +165,17 @@ BUTTON.secondary, A.button.secondary {
 .learn-more:hover {
   text-decoration: underline;
 }
+
+figure {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}

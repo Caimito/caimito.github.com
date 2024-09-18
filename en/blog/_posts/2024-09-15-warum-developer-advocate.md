@@ -60,5 +60,3 @@ Although an essential part of such an engagement is improving the skills of exis
 : After some time, the engagement will come to an end, and the weaning phase begins. For sustainability, this phase should start after 12 months at the latest. The involvement of the Senior Developer Advocate is gradually reduced, and the focus shifts more towards observing and supporting the team.
 
 : The goal is to fully end the engagement after a few weeks of reduced presence. If necessary, the engagement can be resumed.
-
-{% include blog-contact-en.html %}
