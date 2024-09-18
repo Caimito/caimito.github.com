@@ -180,3 +180,20 @@ figure img {
   display: block;
   margin: 0 auto;
 }
+
+/* TODO: find a better highlight */
+mark {
+  background-color: rgb(249, 249, 145);
+  color: black; 
+  padding: 0.2em;
+  border-radius: 10px;
+  font-size: 2em;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
