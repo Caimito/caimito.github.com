@@ -21,9 +21,37 @@ Ausführbare Spezifikation
 : Gerade in größeren Unternehmen ist die Kommunikation zwischen Entwicklungsteam und den internen Auftraggebern oft schwierig und gern werden perfekte Lösungen für das falsche Problem entwickelt. Der Senior Developer Advocate setzt sich mit den Auftraggebern - *stakeholdern* - zusammen und findet heraus wo es klemmt. Eine mögliche Lösung ist dann die behutsame Einführung von ATDD (Acceptance Test-Driven Development), welches eine ausführbare Spezifikation, z.B. mit dem Werkzeug Cucumber oder Alternativen, nutzt, um die in natürlicher Sprache abgefaßten Anforderungen testbar zu machen. So wird geliefert was bestellt wird.
 
 ## Dauer des Einsatzes
-Die Dauer des Einsatzes des Senior Developer Advocate ist grundsätzlich nicht begrenzt. Er ist ja primär ein weiteres Team-Mitglied - allerdings mit einer Sonderaufgabe. Viele Einsätze gehen über 6 - 12 Monate. Es ist hilfreich die Mitarbeit dynamisch oder in Intervallen, z.B. jede zweite Woche, zu gestalten.
+Die Dauer des Einsatzes des Senior Developer Advocate ist grundsätzlich nicht begrenzt. Er ist ja primär ein weiteres Team-Mitglied - allerdings mit einer Sonderaufgabe. Viele Einsätze gehen über 6 - 12 Monate. 
 
-Für den Preis eines einzigen Entwicklers bekommt Ihr Unternehmen mit dem Senior Developer Advocate einen Entwickler, einen Berater, einen Trainer und die gesammelte Erfahrung von vielen Unternehmen.
+Es ist hilfreich das Engagement dynamisch oder in Intervallen, z.B. jede zweite Woche, zu gestalten. **Die Kosten bleiben dadurch unter den üblichen Ausgaben für externe Spezialisten.** Damit bekommt Ihr Unternehmen mit dem Senior Developer Advocate einen Entwickler, einen Berater, einen Trainer und die gesammelte Erfahrung von vielen Unternehmen.
+
+## Struktur eines typischen Engagements als Senior Developer Advocate
+Erfolgskontrolle ist bei jeder Investition wichtig. Eine klare Struktur und Kommunikation sind wichtige Elemente.
+
+- Bestandsaufnahme und Interviews
+- Planung von Maßnahmen (Coaching-Karte)
+- Praktische Arbeit
+- Erfolgskontrolle
+- Entwöhnung
+
+**Bestandsaufnahme und Interviews**
+: Bevor wir anfangen können, müssen wir feststellen, wo wir überhaupt stehen. Was funktioniert gut und wo gibt es Schwierigkeiten, Herausforderungen, Defizite usw.
+: Je nach Größe des Teams und Umfang der bestehenden Software werden im Laufe von ein bis zwei Wochen verschiedene Interviews geführt und bestehende technische Prozesse genauer analysiert. Dazu gehört auch ein *technical review* der bestehenden Software.
+
+**Coaching-Karte zur Bestimmung von Maßnahmen und erwarteten Erfolgen**
+: Mit den Erkenntnissen aus der Bestandsaufnahme entwickeln wir gemeinsam eine Coaching-Karte, die – ähnlich einer [Story Map](/de/kbase/story-map.html) – mögliche Maßnahmen sowie deren zeitlichen und inhaltlichen Zusammenhang aufzeigt. Diese Coaching-Karte wird dann unser gemeinsamer Plan und dient auch zur Erfolgskontrolle.
+
+**Praktische Arbeit**
+: 60 % bis 70 % der praktischen Arbeit des Senior Developer Advocate besteht aus der Mitarbeit an der Entwicklung der Softwarelösung, an der das Team arbeitet. Daher ist diese Rolle klar die eines Teammitglieds und Entwicklers, und es geht nicht einfach nur um Training.
+
+: Der Schwerpunkt auf der praktischen Arbeit als Entwickler führt zur Akzeptanz der Person und der vorgeschlagenen Maßnahmen durch die anderen Teammitglieder.
+
+: Die oben erwähnte Coaching-Karte ist für alle Teammitglieder ständig sichtbar, und der Senior Developer Advocate sucht aktiv nach den richtigen Zeitpunkten und Gelegenheiten, um Ausbildungsziele und Maßnahmen situativ und im persönlichen Kontakt umzusetzen.
+
+**Phase der Entwöhnung**
+: Nach einiger Zeit wird das Engagement enden, und es beginnt die Phase der Entwöhnung. Der Nachhaltigkeit wegen sollte diese Phase spätestens nach 12 Monaten beginnen. Die Mitarbeit des Senior Developer Advocate wird reduziert, und der Schwerpunkt verlagert sich mehr auf die Beobachtung und Begleitung des Teams.
+
+: Ziel ist es, das Engagement nach ein paar Wochen reduzierter Präsenz vollständig zu beenden. Bei Bedarf kann es wieder aufgenommen werden.
 
 ## Erfolgskontrolle
 Regelmäßige Gespräch mit der Geschäfts- oder Bereichsleitung dienen der Erfolgskontrolle. Es geht dabei um klare Ziele und was davon erreicht wurde oder wo Schwierigkeiten sind. Der Senior Developer Advocate ist auch ein Unternehmensberater und wird gegebenenfalls z.B. auch Änderungen an der Aufbaustruktur des Unternehmens vorschlagen.
