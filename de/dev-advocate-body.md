@@ -54,4 +54,4 @@ Erfolgskontrolle ist bei jeder Investition wichtig. Eine klare Struktur und Komm
 : Ziel ist es, das Engagement nach ein paar Wochen reduzierter Präsenz vollständig zu beenden. Bei Bedarf kann es wieder aufgenommen werden.
 
 ## Erfolgskontrolle
-Regelmäßige Gespräch mit der Geschäfts- oder Bereichsleitung dienen der Erfolgskontrolle. Es geht dabei um klare Ziele und was davon erreicht wurde oder wo Schwierigkeiten sind. Der Senior Developer Advocate ist auch ein Unternehmensberater und wird gegebenenfalls z.B. auch Änderungen an der Aufbaustruktur des Unternehmens vorschlagen.
+Regelmäßige Gespräche mit der Geschäfts- oder Bereichsleitung dienen der Erfolgskontrolle. Es geht dabei um klare Ziele und was davon erreicht wurde oder wo Schwierigkeiten sind. Der Senior Developer Advocate ist auch ein Unternehmensberater und wird gegebenenfalls z.B. auch Änderungen an der Aufbaustruktur des Unternehmens vorschlagen.
