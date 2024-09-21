@@ -181,6 +181,16 @@ figure img {
   margin: 0 auto;
 }
 
+.button-container {
+  position: relative;
+  padding-top: 0.5em;
+  padding-bottom: 4em;
+}
+
+.button-container .button {
+  float: right;
+}
+
 /* TODO: find a better highlight */
 mark {
   background-color: rgb(249, 249, 145);
