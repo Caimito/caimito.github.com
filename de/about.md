@@ -13,7 +13,7 @@ Auf den ersten Blick mag die Mischung aus Softwareentwicklung und Landwirtschaft
 <div class="overview">
 	<section>
 		<h2>Stephan Schwab</h2>
-		<p><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120" class="avatar" />
+		<p><img src="https://gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120&d=robohash&r=x" class="avatar" />
  			Stephan Schwab programmiert seit 1981 und hat seitdem auf einer Vielzahl unterschiedlicher Plattformen und mit etwa 20
 			verschiedenen Programmiersprachen gearbeitet. Seine eigenen erfolgreichen Fehler und die von anderen führten zu
 			der Erkenntnis, daß viel zu häufig Unternehmen Software entwickeln, die das falsche Problem löst. In seiner
