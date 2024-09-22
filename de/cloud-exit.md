@@ -16,7 +16,7 @@ title:
     </ul>
 
     <h2>Die eigene Cloud</h2>
-    <p>Mit Erfahrung seit den 1990iger Jahren können wir Ihnen helfen die eigene Cloud-Infrastruktur aufzubauen.</p>
+    <p>Mit Erfahrung seit den 1990er Jahren können wir Ihnen helfen die eigene Cloud-Infrastruktur aufzubauen.</p>
     {% include_relative contact.html %}
   </div>
 </div>
