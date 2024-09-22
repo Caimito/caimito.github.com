@@ -60,5 +60,3 @@ Obwohl ein wichtiger Aspekt eines solchen Engagements die Verbesserung der Fähi
 : Nach einiger Zeit wird das Engagement enden, und es beginnt die Phase der Entwöhnung. Der Nachhaltigkeit wegen sollte diese Phase spätestens nach 12 Monaten beginnen. Die Mitarbeit des Senior Developer Advocate wird reduziert, und der Schwerpunkt verlagert sich mehr auf die Beobachtung und Begleitung des Teams.
 
 : Ziel ist es, das Engagement nach ein paar Wochen reduzierter Präsenz vollständig zu beenden. Bei Bedarf kann es wieder aufgenommen werden.
-
-{% include blog-contact-de.html %}

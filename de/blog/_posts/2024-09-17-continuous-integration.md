@@ -40,4 +40,3 @@ In keinem Fall solltest du ungetesteten Code in die Hauptlinie einbringen und da
 ## Wir müssen Prüfungen durchführen, die von regulatorischen Vorschriften gefordert werden
 Natürlich kannst du das. Aber das liegt außerhalb des Umfangs von Continuous Integration als Praxis. Der perfekte Weg, dies zu tun, besteht darin, diese Prüfungen einmal täglich auf einem dafür vorgesehenen Server auf dem vollständig integrierten und getesteten Code durchzuführen.
 
-{% include blog-contact-de.html %}
