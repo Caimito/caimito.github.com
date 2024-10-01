@@ -4,9 +4,12 @@ Der Senior Developer Advocate ist ein erfahrener Software-Entwickler, welcher ze
 ## Vorteile für Ihr Unternehmen
 In Zeiten knapper Budgets und vieler neuer Herausforderungen ist der Senior Developer Advocate eine sehr kostengünstige Möglichkeit die Gesamtleistung des Teams dramatisch zu verbessern.
 
+<a href="mailto:info@caimito.net?subject=Kostenfreies Development Assessment"><mark>Development Assessment kostenfrei bestellen</mark></a>
+
 Statt in die Anstellung weiterer Software-Entwickler, Tester, Business Analysts, Product Owner, Scrum Master, usw. zu investieren, hilft der Senior Developer Advocate die Fähigkeiten der schon vorhandenen Mitarbeiter zu verbessern. Es fallen Einarbeitungszeiten weg, die Gesamtkosten sind weitaus geringer und als angenehmer Nebeneffekt steigt sogar die Qualität des Codes.
 
 {% include_relative contact.html %}
+
 
 ## Weitaus besser als Schulungen - und billiger
 Der Senior Developer Advocate ist ein weiteres Team-Mitglied und kann daher situativ die richtigen Angebote im richtigen Kontext machen. Er liefert die Lösung für das jeweilige Problem und die Schulung passiert "on the job" und ist quasi gratis. Hier einige Beispiele:
