@@ -8,7 +8,7 @@ Founded in 2017 in the Spanish province of Cordoba in Andalusia, Caimito Agile L
 - Improving software development
 - Preserving a piece of Dehesa through regenerative agriculture
 
-At first glance, the combination of software development and agriculture may seem unusual. In fact, both have a lot in common. Both are areas full of complexity. Things do not always go according to plan. One often has to respond sensibly to new events. In agriculture, there are many unknown unknowns (factors) - just as is the case in dynamic markets.
+At first glance, the combination of software development and agriculture may seem unusual. In fact, both have a lot in common. Both are areas full of complexity. Things do not always go according to plan. One often has to respond sensibly to new events. In agriculturels, there are many unknown unknowns (factors) - just as is the case in dynamic markets.
 
 <div class="overview">
 	<section>

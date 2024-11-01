@@ -10,6 +10,9 @@ Statt in die Anstellung weiterer Software-Entwickler, Tester, Business Analysts,
 
 {% include_relative contact.html %}
 
+<figure>
+  <img src="/img/developers.jpg"/>
+</figure>
 
 ## Weitaus besser als Schulungen - und billiger
 Der Senior Developer Advocate ist ein weiteres Team-Mitglied und kann daher situativ die richtigen Angebote im richtigen Kontext machen. Er liefert die Lösung für das jeweilige Problem und die Schulung passiert "on the job" und ist quasi gratis. Hier einige Beispiele:
@@ -44,12 +47,20 @@ Erfolgskontrolle ist bei jeder Investition wichtig. Eine klare Struktur und Komm
 **Coaching-Karte zur Bestimmung von Maßnahmen und erwarteten Erfolgen**
 : Mit den Erkenntnissen aus der Bestandsaufnahme entwickeln wir gemeinsam eine Coaching-Karte, die – ähnlich einer [Story Map](/de/kbase/story-map.html) – mögliche Maßnahmen sowie deren zeitlichen und inhaltlichen Zusammenhang aufzeigt. Diese Coaching-Karte wird dann unser gemeinsamer Plan und dient auch zur Erfolgskontrolle.
 
+<figure>
+	<img src="/img/story-map.png">
+</figure>
+
 **Praktische Arbeit**
 : 60 % bis 70 % der praktischen Arbeit des Senior Developer Advocate besteht aus der Mitarbeit an der Entwicklung der Softwarelösung, an der das Team arbeitet. Daher ist diese Rolle klar die eines Teammitglieds und Entwicklers, und es geht nicht einfach nur um Training.
 
 : Der Schwerpunkt auf der praktischen Arbeit als Entwickler führt zur Akzeptanz der Person und der vorgeschlagenen Maßnahmen durch die anderen Teammitglieder.
 
 : Die oben erwähnte Coaching-Karte ist für alle Teammitglieder ständig sichtbar, und der Senior Developer Advocate sucht aktiv nach den richtigen Zeitpunkten und Gelegenheiten, um Ausbildungsziele und Maßnahmen situativ und im persönlichen Kontakt umzusetzen.
+
+<figure>
+  <img src="/img/pairProgramming.jpg"/>
+</figure>
 
 **Phase der Entwöhnung**
 : Nach einiger Zeit wird das Engagement enden, und es beginnt die Phase der Entwöhnung. Der Nachhaltigkeit wegen sollte diese Phase spätestens nach 12 Monaten beginnen. Die Mitarbeit des Senior Developer Advocate wird reduziert, und der Schwerpunkt verlagert sich mehr auf die Beobachtung und Begleitung des Teams.
