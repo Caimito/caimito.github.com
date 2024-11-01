@@ -30,24 +30,31 @@ Our associates can act as **Senior Developer Advocate** or as **Entrepreneurial 
 {% include_relative contact.html %}
 
 ## The Learning Team in a Learning Organization
-<p>Teams are the smallest unit able to learn within an organization. Workgroups made of specialists deliver inferior
-	performance because those specialists frequently are unable to truly collaborate. Success comes from technical
-	capabilities. Sustainable long-term success comes from organizational capabilities.</p>
 
-<p>Embedded into your team, working as an active member who makes meaningful contributions to your software product,
-	the <a href="developer-advocate.html"><strong>Senior Developer Advocate</strong></a> makes your development effort
-	more effective. Consequently, efficiency increases. Your organization gets working software solutions to business
-	problems earlier.
-</p>
-<p>
-	By being able to adapt quicker to changing markets and customer demands you will be able to outperform your
-	competition.
-</p>
-<p>The embedded <a href="developer-advocate.html"><strong>Senior Developer Advocate</strong></a> is a very cost
-	effective way to increase the technical skills of each team member without losing productivity by sending everyone to
-	classroom training which is often general and not specific to your needs.</p>
+<div class="two-columns">
+	<div>
+		<p>Teams are the smallest unit able to learn within an organization. Workgroups made of specialists deliver inferior
+			performance because those specialists frequently are unable to truly collaborate. Success comes from technical
+			capabilities. Sustainable long-term success comes from organizational capabilities.</p>
+		<p>Embedded into your team, working as an active member who makes meaningful contributions to your software product,
+			the <a href="developer-advocate.html"><strong>Senior Developer Advocate</strong></a> makes your development effort
+			more effective. Consequently, efficiency increases. Your organization gets working software solutions to business
+			problems earlier.
+		</p>
+		<p>
+			By being able to adapt quicker to changing markets and customer demands you will be able to outperform your
+			competition.
+		</p>
+		<p>The embedded <a href="developer-advocate.html"><strong>Senior Developer Advocate</strong></a> is a very cost
+			effective way to increase the technical skills of each team member without losing productivity by sending everyone to
+			classroom training which is often general and not specific to your needs.</p>
+		<p><a href="developer-advocate.html">Learn more about the Senior Developer Advocate ...</a></p>
+	</div>
+	<figure>
+		<img src="/img/teamLaptops.jpg"/>
+	</figure>
+</div>
 
-<p><a href="developer-advocate.html">Learn more about the Senior Developer Advocate ...</a></p>
 
 
 <div class="info-container">
